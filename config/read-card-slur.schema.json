@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://claudebillboard.local/config/read-card-slur.schema.json",
+  "title": "Slur-use card s1",
+  "description": "Derived exactly from the enums in config/read-card-slur.md. One record per song with a gendered slur token; one entry per distinct target line + word. Coverage of the targets and the lyric-overlap check are enforced by scripts/read_run.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["song_id", "uses", "context_used", "notes"],
+  "properties": {
+    "song_id": {"type": "string", "pattern": "^(R|KS)[0-9a-fA-F]{16}$"},
+    "uses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["line", "word", "aimed_at", "use", "voice", "confidence", "why"],
+        "properties": {
+          "line": {"type": "integer", "minimum": 1},
+          "word": {"type": "string", "enum": ["bitch", "hoe", "slut", "whore", "thot", "skank"]},
+          "aimed_at": {"type": "string", "enum": ["a_woman", "women_general", "a_man", "men_general",
+                                                   "singer_self", "mixed_group", "no_one", "unclear"]},
+          "use": {"type": "string", "enum": ["insult", "sexual_objectifying", "self_boast",
+                                              "affection_or_in_group", "reclaimed", "idiom",
+                                              "quoted", "unclear"]},
+          "voice": {"type": "string", "enum": ["singer", "featured_other", "character"]},
+          "confidence": {"type": "string", "enum": ["high", "medium", "low"]},
+          "why": {"type": "string", "maxLength": 200,
+                  "description": "One short line. Never more than 8 consecutive words taken from the lyric."}
+        }
+      }
+    },
+    "context_used": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": ["string", "null"], "maxLength": 300}
+  }
+}

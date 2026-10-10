@@ -1,0 +1,475 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://claudebillboard.local/config/read-card-topics.schema.json",
+  "title": "Topics add-on card t1.2",
+  "description": "Derived exactly from the enums in config/read-card-topics.md. One record per song, read alongside card v3. The lyric-overlap check is enforced by scripts/read_run.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "song_id",
+    "cheating",
+    "relationship",
+    "police",
+    "authority",
+    "crime",
+    "topic_index",
+    "confidence",
+    "context_used",
+    "notes"
+  ],
+  "definitions": {
+    "why": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 300,
+      "description": "One line of interpretation. Never more than 8 consecutive words taken from the lyric."
+    },
+    "line": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "properties": {
+    "song_id": {
+      "type": "string",
+      "pattern": "^(R|KS)[0-9a-fA-F]{16}$"
+    },
+    "cheating": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "presence",
+        "who",
+        "stance",
+        "evidence",
+        "why"
+      ],
+      "properties": {
+        "presence": {
+          "type": "string",
+          "enum": [
+            "none",
+            "hinted",
+            "present",
+            "central"
+          ]
+        },
+        "who": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": [
+              "speaker",
+              "partner",
+              "speaker_as_other",
+              "third_party",
+              "unclear"
+            ]
+          }
+        },
+        "stance": {
+          "type": "string",
+          "enum": [
+            "celebrated",
+            "romanticized",
+            "conflicted",
+            "regretted",
+            "wronged",
+            "condemned",
+            "neutral",
+            "n/a"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "line",
+              "tag"
+            ],
+            "properties": {
+              "line": {
+                "$ref": "#/definitions/line"
+              },
+              "tag": {
+                "type": "string",
+                "enum": [
+                  "act",
+                  "proposal",
+                  "suspicion",
+                  "reference"
+                ]
+              }
+            }
+          }
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "relationship": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "casual_sex",
+        "marriage",
+        "breakup",
+        "jealousy",
+        "why"
+      ],
+      "properties": {
+        "casual_sex": {
+          "type": "string",
+          "enum": [
+            "none",
+            "invited",
+            "described"
+          ]
+        },
+        "marriage": {
+          "type": "string",
+          "enum": [
+            "none",
+            "mentioned",
+            "wants_to_marry",
+            "married",
+            "divorce"
+          ]
+        },
+        "breakup": {
+          "type": "string",
+          "enum": [
+            "none",
+            "looming",
+            "happened"
+          ]
+        },
+        "jealousy": {
+          "type": "string",
+          "enum": [
+            "none",
+            "speaker",
+            "other",
+            "both"
+          ]
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "police": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "presence",
+        "force_by",
+        "stance",
+        "evidence",
+        "why"
+      ],
+      "properties": {
+        "presence": {
+          "type": "string",
+          "enum": [
+            "none",
+            "mentioned",
+            "encounter",
+            "force"
+          ]
+        },
+        "force_by": {
+          "type": "string",
+          "enum": [
+            "n/a",
+            "police",
+            "against_police",
+            "both"
+          ]
+        },
+        "stance": {
+          "type": "string",
+          "enum": [
+            "hostile",
+            "critical",
+            "evasive",
+            "neutral",
+            "supportive",
+            "n/a"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "line",
+              "tag"
+            ],
+            "properties": {
+              "line": {
+                "$ref": "#/definitions/line"
+              },
+              "tag": {
+                "type": "string",
+                "enum": [
+                  "mention",
+                  "encounter",
+                  "force"
+                ]
+              }
+            }
+          }
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stance",
+        "targets",
+        "why"
+      ],
+      "properties": {
+        "stance": {
+          "type": "string",
+          "enum": [
+            "none",
+            "playful",
+            "defiant",
+            "hostile"
+          ]
+        },
+        "targets": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": [
+              "police",
+              "law_justice",
+              "government_politics",
+              "school",
+              "work_boss",
+              "military_war",
+              "religion_institution",
+              "parents",
+              "system_generic"
+            ]
+          }
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "crime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "presence",
+        "kinds",
+        "by",
+        "framing",
+        "evidence",
+        "why"
+      ],
+      "properties": {
+        "presence": {
+          "type": "string",
+          "enum": [
+            "none",
+            "mentioned",
+            "described"
+          ]
+        },
+        "kinds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": [
+              "theft_robbery",
+              "drug_dealing",
+              "violent",
+              "property_vandalism",
+              "fraud_scam",
+              "gang",
+              "weapons",
+              "incarceration",
+              "other"
+            ]
+          }
+        },
+        "by": {
+          "type": "string",
+          "enum": [
+            "speaker",
+            "others",
+            "both",
+            "n/a"
+          ]
+        },
+        "framing": {
+          "type": "string",
+          "enum": [
+            "glorified",
+            "justified",
+            "neutral",
+            "cautionary",
+            "n/a"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "line",
+              "tag"
+            ],
+            "properties": {
+              "line": {
+                "$ref": "#/definitions/line"
+              },
+              "tag": {
+                "type": "string",
+                "enum": [
+                  "act",
+                  "reference",
+                  "consequence"
+                ]
+              }
+            }
+          }
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "topic_index": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "from",
+          "to",
+          "tags"
+        ],
+        "properties": {
+          "from": {
+            "$ref": "#/definitions/line"
+          },
+          "to": {
+            "$ref": "#/definitions/line"
+          },
+          "tags": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 4,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "enum": [
+                "love",
+                "desire",
+                "sex",
+                "breakup",
+                "cheating",
+                "jealousy",
+                "marriage",
+                "family_parents",
+                "children",
+                "friendship",
+                "loneliness",
+                "grief_death",
+                "mental_health",
+                "self_harm",
+                "religion_faith",
+                "party_dancing",
+                "alcohol",
+                "drugs",
+                "money_wealth",
+                "poverty_work",
+                "brands_luxury",
+                "cars_travel",
+                "place_home",
+                "nostalgia",
+                "fame_industry",
+                "rivalry_diss",
+                "violence",
+                "weapons",
+                "police",
+                "crime",
+                "prison",
+                "politics_protest",
+                "war_military",
+                "race_identity",
+                "gender_roles",
+                "body_appearance",
+                "self_confidence",
+                "nature_weather",
+                "music_itself",
+                "technology_phone",
+                "school_youth",
+                "rebellion",
+                "other"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "confidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "overall",
+        "lowest_field"
+      ],
+      "properties": {
+        "overall": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "lowest_field": {
+          "type": "string",
+          "maxLength": 60
+        }
+      }
+    },
+    "context_used": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 300
+      }
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 600
+    }
+  }
+}

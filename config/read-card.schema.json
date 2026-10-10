@@ -1,0 +1,709 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://claudebillboard.local/config/read-card.schema.json",
+  "title": "Per-song read card v3",
+  "description": "Derived exactly from the enums in config/read-card.md (card v3). One record per song. The >8-consecutive-lyric-words check is enforced by scripts/read_run.py, not by this schema.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "song_id",
+    "subject",
+    "voice",
+    "address",
+    "irony",
+    "sex",
+    "love",
+    "gender_features",
+    "violence",
+    "drugs",
+    "money",
+    "mental_health",
+    "religion",
+    "politics",
+    "craft",
+    "outlook",
+    "identity_vocabulary",
+    "sex_work_named",
+    "self_focus",
+    "mood",
+    "minor_involved",
+    "version_suspected_clean_edit",
+    "lexicon_gaps",
+    "confidence",
+    "context_used",
+    "notes"
+  ],
+  "definitions": {
+    "why": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 300,
+      "description": "One line of interpretation. Never more than 8 consecutive words taken from the lyric."
+    },
+    "subject_value": {
+      "type": "string",
+      "enum": [
+        "romantic_love",
+        "sex",
+        "self_ego",
+        "money_status",
+        "party",
+        "hardship",
+        "social_political",
+        "diss_beef",
+        "other"
+      ]
+    },
+    "line": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "string_list": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 300
+      }
+    }
+  },
+  "properties": {
+    "song_id": {
+      "type": "string",
+      "pattern": "^(R|KS)[0-9a-fA-F]{16}$"
+    },
+    "subject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "main",
+        "secondary",
+        "why"
+      ],
+      "properties": {
+        "main": {
+          "$ref": "#/definitions/subject_value"
+        },
+        "secondary": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/subject_value"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "voice": {
+      "type": "string",
+      "enum": [
+        "self",
+        "character",
+        "ambiguous"
+      ]
+    },
+    "address": {
+      "type": "string",
+      "enum": [
+        "lover",
+        "rival",
+        "audience",
+        "self",
+        "group",
+        "nobody"
+      ]
+    },
+    "irony": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "flag",
+        "why"
+      ],
+      "properties": {
+        "flag": {
+          "type": "boolean"
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "sex": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "level",
+        "in_chorus",
+        "function",
+        "speaker_stance",
+        "consent",
+        "evidence",
+        "why"
+      ],
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": [
+            "graphic",
+            "explicit",
+            "suggestive",
+            "romantic",
+            "none"
+          ]
+        },
+        "in_chorus": {
+          "type": "boolean"
+        },
+        "function": {
+          "type": "string",
+          "enum": [
+            "erotic",
+            "boast",
+            "insult",
+            "assault",
+            "commentary",
+            "n/a"
+          ]
+        },
+        "speaker_stance": {
+          "type": "string",
+          "enum": [
+            "n/a",
+            "desiring_mutual",
+            "objectifying",
+            "objectified",
+            "boasting"
+          ]
+        },
+        "consent": {
+          "type": "string",
+          "enum": [
+            "mutual",
+            "pressured",
+            "non_consensual",
+            "unclear",
+            "n/a"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "line",
+              "tag"
+            ],
+            "properties": {
+              "line": {
+                "$ref": "#/definitions/line"
+              },
+              "tag": {
+                "type": "string",
+                "enum": [
+                  "graphic",
+                  "explicit",
+                  "suggestive"
+                ]
+              }
+            }
+          }
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "love": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "exclusivity",
+        "betrayal_framing",
+        "why"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "none",
+            "committed",
+            "pursuing",
+            "unrequited",
+            "casual",
+            "betrayal",
+            "breakup",
+            "abstract"
+          ]
+        },
+        "exclusivity": {
+          "type": "string",
+          "enum": [
+            "n/a",
+            "exclusive_committed",
+            "pursuing_one",
+            "secret_betrayal",
+            "open_multiple",
+            "serial_replaceable",
+            "unclear"
+          ]
+        },
+        "betrayal_framing": {
+          "type": "string",
+          "enum": [
+            "celebrated",
+            "regretted",
+            "condemned",
+            "neutral",
+            "n/a"
+          ]
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "gender_features": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "features",
+        "target",
+        "why"
+      ],
+      "properties": {
+        "features": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": [
+              "gendered_slur",
+              "interchangeable_partner",
+              "partner_as_means",
+              "body_only_description",
+              "partner_does_not_speak",
+              "idealizing_pedestal",
+              "agency_asserted",
+              "reclaimed_slur",
+              "hostile_contempt",
+              "toughness_posture"
+            ]
+          }
+        },
+        "target": {
+          "type": "string",
+          "enum": [
+            "women",
+            "men",
+            "both",
+            "n/a"
+          ]
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "violence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "presence",
+        "framing",
+        "target",
+        "evidence",
+        "why"
+      ],
+      "properties": {
+        "presence": {
+          "type": "string",
+          "enum": [
+            "none",
+            "mentioned",
+            "threatened",
+            "enacted"
+          ]
+        },
+        "framing": {
+          "type": "string",
+          "enum": [
+            "celebrated",
+            "justified",
+            "neutral_narrated",
+            "negated",
+            "condemned",
+            "mourned",
+            "n/a"
+          ]
+        },
+        "target": {
+          "type": "string",
+          "enum": [
+            "n/a",
+            "rival_male",
+            "partner_or_woman",
+            "police_authority",
+            "self",
+            "group_or_crew",
+            "generic_unnamed"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "line",
+              "tag"
+            ],
+            "properties": {
+              "line": {
+                "$ref": "#/definitions/line"
+              },
+              "tag": {
+                "type": "string",
+                "enum": [
+                  "threat",
+                  "act",
+                  "weapon",
+                  "mourning",
+                  "negated",
+                  "reference"
+                ]
+              }
+            }
+          }
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "drugs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "presence",
+        "framing",
+        "substances",
+        "evidence",
+        "why"
+      ],
+      "properties": {
+        "presence": {
+          "type": "string",
+          "enum": [
+            "none",
+            "mentioned",
+            "use_described",
+            "sale_described"
+          ]
+        },
+        "framing": {
+          "type": "string",
+          "enum": [
+            "glorified",
+            "neutral",
+            "cautionary",
+            "n/a"
+          ]
+        },
+        "substances": {
+          "$ref": "#/definitions/string_list"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "line",
+              "tag"
+            ],
+            "properties": {
+              "line": {
+                "$ref": "#/definitions/line"
+              },
+              "tag": {
+                "type": "string",
+                "enum": [
+                  "use",
+                  "sale",
+                  "reference"
+                ]
+              }
+            }
+          }
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "money": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "level",
+        "stance",
+        "brands_named",
+        "brand_purpose",
+        "why"
+      ],
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": [
+            "none",
+            "some",
+            "central"
+          ]
+        },
+        "stance": {
+          "type": "string",
+          "enum": [
+            "n/a",
+            "flex",
+            "struggle",
+            "hustle_ascent",
+            "refusal_critique",
+            "transactional"
+          ]
+        },
+        "brands_named": {
+          "type": "boolean"
+        },
+        "brand_purpose": {
+          "type": "string",
+          "enum": [
+            "n/a",
+            "flex",
+            "scene_detail",
+            "critique"
+          ]
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "mental_health": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "presence",
+        "kinds",
+        "why"
+      ],
+      "properties": {
+        "presence": {
+          "type": "string",
+          "enum": [
+            "none",
+            "mentioned",
+            "described",
+            "central"
+          ]
+        },
+        "kinds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": [
+              "sadness_depression",
+              "anxiety_paranoia",
+              "self_harm_suicide",
+              "therapy_medication",
+              "substance_coping"
+            ]
+          }
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "religion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "presence",
+        "why"
+      ],
+      "properties": {
+        "presence": {
+          "type": "string",
+          "enum": [
+            "none",
+            "idiom_only",
+            "mentioned",
+            "invoked",
+            "devotional",
+            "doubting",
+            "occult_or_satanic"
+          ]
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "politics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "presence",
+        "why"
+      ],
+      "properties": {
+        "presence": {
+          "type": "string",
+          "enum": [
+            "none",
+            "mentioned",
+            "protest",
+            "patriotic",
+            "commentary"
+          ]
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "craft": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "narrativity",
+        "specificity",
+        "figurative",
+        "why"
+      ],
+      "properties": {
+        "narrativity": {
+          "type": "string",
+          "enum": [
+            "none",
+            "vignette",
+            "scene",
+            "full_story"
+          ]
+        },
+        "specificity": {
+          "type": "string",
+          "enum": [
+            "generic",
+            "some_concrete",
+            "named_places_people"
+          ]
+        },
+        "figurative": {
+          "type": "string",
+          "enum": [
+            "literal",
+            "some_imagery",
+            "sustained_metaphor"
+          ]
+        },
+        "why": {
+          "$ref": "#/definitions/why"
+        }
+      }
+    },
+    "outlook": {
+      "type": "string",
+      "enum": [
+        "hopeful",
+        "resigned",
+        "nihilistic",
+        "defiant",
+        "neutral",
+        "n/a"
+      ]
+    },
+    "identity_vocabulary": {
+      "type": "boolean"
+    },
+    "sex_work_named": {
+      "type": "boolean"
+    },
+    "self_focus": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "mood": {
+      "type": "string",
+      "enum": [
+        "joy",
+        "desire",
+        "anger",
+        "sadness",
+        "pride",
+        "longing",
+        "fear",
+        "defiance",
+        "other"
+      ]
+    },
+    "minor_involved": {
+      "type": "boolean"
+    },
+    "version_suspected_clean_edit": {
+      "type": "boolean"
+    },
+    "lexicon_gaps": {
+      "$ref": "#/definitions/string_list"
+    },
+    "confidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "overall",
+        "lowest_field"
+      ],
+      "properties": {
+        "overall": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "lowest_field": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 60
+        }
+      }
+    },
+    "context_used": {
+      "$ref": "#/definitions/string_list"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 300
+    }
+  }
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-story>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Billboard Lyrics 1960–2025</title>
+<meta name="description" content="How music has changed over 60 years: every Billboard Year-End song since 1960, 6,165 of them, read one by one.">
+<meta name="robots" content="noindex, nofollow">
+<script>
+  // Paper (light) is the main look; a reader's choice of dark is remembered.
+  try { if (localStorage.getItem("theme") === "dark") { document.documentElement.setAttribute("data-theme", "dark"); } } catch (e) {}
+</script>
+<link rel="stylesheet" href="story.css?v=47">
+</head>
+<body>
+<a class="skip" href="#picture">Skip to the page</a>
+
+
+<main id="main">
+<p class="error" id="load-error" hidden></p>
+<noscript><p class="error">This page reads its figures from JSON files on
+this machine at load time, so it needs JavaScript.</p></noscript>
+
+<!-- ============ 0. opener: one ink dot per song, 1960 to 2025 ============ -->
+<section class="open" id="top" aria-label="Opening">
+  <div class="dots" id="open-dots" aria-hidden="true"></div>
+  <p class="open-big"><span id="open-count">6,165</span> songs.<span id="open-note"></span></p>
+  <p class="open-line" style="--d:0">Every Billboard year-end hit from 1960 to 2025, read one by one.</p>
+  <p class="open-line" style="--d:1">People say music got worse. Let’s see.</p>
+  <p class="open-cue" aria-hidden="true">↓</p>
+</section>
+
+<!-- ============ 1. the whole thing in one picture ============ -->
+<section class="slide" id="picture">
+  <div class="col">
+    <h1 class="picture-title">How music has changed over 60 years.</h1>
+  </div>
+  <div class="wide">
+    <div class="heat" id="heat"></div>
+    <p class="heat-readout" id="heat-readout" aria-live="polite">&nbsp;</p>
+  </div>
+  <div class="col">
+    <p class="caption" id="heat-caption">Every row is one thing a song can do. Every column is one year. Darker means more.</p>
+  </div>
+</section>
+
+<!-- ============ Act 1: sex ============ -->
+<div class="chapter c-sex" id="sex">
+  <section class="slide c-sex">
+    <div class="viz"><div class="trio" id="sex-trio"></div></div>
+    <div class="cap col"><p class="line" id="sex-line"></p></div>
+  </section>
+  <section class="slide c-sex">
+    <div class="viz"><div class="chart" id="chart-sex"></div></div>
+    <div class="cap col"><p class="line twist" id="sex-twist"></p></div>
+  </section>
+  <section class="slide c-sex">
+    <div class="viz"><div class="tally" id="sexwords-tally"></div></div>
+    <div class="cap col"></div>
+  </section>
+  <section class="slide c-sex">
+    <div class="viz"><div class="chart" id="chart-cheat"></div></div>
+    <div class="cap col"><p class="line" id="hookup-line"></p></div>
+  </section>
+  <section class="slide c-sex">
+    <div class="viz"><div id="cheat-minis"></div></div>
+    <div class="cap col"><p class="line twist" id="cheat-twist"></p></div>
+  </section>
+</div>
+
+<!-- ============ Act 2: swearing (bridge) ============ -->
+<div class="chapter c-race" id="swearing">
+  <section class="slide c-race">
+    <div class="viz"><div class="chart" id="chart-swear"></div></div>
+    <div class="cap col"><p class="line" id="swear-line"></p></div>
+  </section>
+</div>
+
+<!-- ============ Act 3: violence ============ -->
+<div class="chapter c-violence" id="violence">
+  <section class="slide c-violence">
+    <div class="viz"><div class="chart" id="chart-violence"></div></div>
+    <div class="cap col"><p class="line" id="violence-line"></p></div>
+  </section>
+  <section class="slide c-violence">
+    <div class="viz"><div id="threat-minis"></div></div>
+    <div class="cap col"><p class="line" id="threat-line"></p></div>
+  </section>
+  <section class="slide c-violence">
+    <div class="viz"><div id="violence-minis"></div></div>
+    <div class="cap col"><p class="line" id="violence-how"></p></div>
+  </section>
+  <section class="slide c-violence">
+    <div class="viz"><div class="tally" id="weapons-tally"></div></div>
+    <div class="cap col"></div>
+  </section>
+  <section class="slide c-violence">
+    <div class="viz"><div class="chart" id="chart-crime"></div></div>
+    <div class="cap col"><p class="line" id="crime-line"></p></div>
+  </section>
+  <section class="slide c-violence">
+    <div class="viz"><div class="big" id="police-big"></div></div>
+    <div class="cap col"><p class="line" id="police-line"></p></div>
+  </section>
+</div>
+
+<!-- ============ Act 4: drugs ============ -->
+<div class="chapter c-drugs" id="drugs">
+  <section class="slide c-drugs">
+    <div class="viz"><div class="chart" id="chart-drugs"></div></div>
+    <div class="cap col"><p class="line" id="drugs-line"></p></div>
+  </section>
+  <section class="slide c-drugs">
+    <div class="viz"><div class="rank" id="drugs-rank"></div></div>
+    <div class="cap col"><p class="line" id="drugs-kinds-line"></p></div>
+  </section>
+  <section class="slide c-drugs">
+    <div class="viz"><div class="chart" id="chart-pills"></div></div>
+    <div class="cap col"><p class="line" id="pills-line"></p></div>
+  </section>
+</div>
+
+<!-- ============ Act 5: money ============ -->
+<div class="chapter c-money" id="money">
+  <section class="slide c-money">
+    <div class="viz"><div class="chart" id="chart-money"></div></div>
+    <div class="cap col"><p class="line" id="money-line"></p></div>
+  </section>
+  <section class="slide c-money">
+    <div class="viz"><div class="big" id="brands-big"></div></div>
+    <div class="cap col"><p class="line" id="money-brands"></p></div>
+  </section>
+</div>
+
+<!-- ============ Act 6: is it just rap? ============ -->
+<div class="chapter c-race" id="rap">
+  <section class="slide c-race">
+    <div class="viz"><div class="bars" id="rap-bars"></div></div>
+    <div class="cap col"><p class="line" id="rap-line"></p></div>
+  </section>
+  <section class="slide c-drugs">
+    <div class="viz"><div class="big" id="alcohol-big"></div></div>
+    <div class="cap col"><p class="line" id="drugs-alcohol"></p></div>
+  </section>
+</div>
+<div class="chapter c-kids" id="kids">
+  <section class="slide c-kids">
+    <div class="viz"><div class="bars" id="kids-bars"></div></div>
+    <div class="cap col"><p class="line" id="kids-line"></p><p class="caveat"><b>What this counts.</b> <span id="kids-caveat"></span></p></div>
+  </section>
+</div>
+
+<!-- ============ Act 7: close ============ -->
+<section class="slide">
+  <div class="viz"><div class="thennow" id="thennow"></div></div>
+</section>
+
+<!-- Retired beats kept (hidden) so older draw code finds its elements. -->
+<div hidden><p id="sex-how"></p><p id="hookup-how"></p><p id="violence-celebrated"></p><p id="violence-twist"></p><p id="crime-twist"></p><p id="drugs-twist"></p><p id="drugs-lean"></p><p id="body-line"></p><p id="cheat-line"></p><div id="chart-cheat2"></div><div id="vwords-tally"></div><div id="threat-tally"></div></div>
+
+<!-- ============ 11. the author ============ -->
+<section class="slide" id="author">
+  <div class="col">
+    <aside class="box author">
+      <p class="box-label">What I think (not what I measured)</p>
+      <p class="author-opinion" id="author-opinion"></p>
+      <div class="author-text">
+        <p>Music is something that unites people.<br>
+        It can draw a room together.<br>
+        So many different minds occupied by different thoughts,<br>
+        but they can all focus on a single song.</p>
+        <p>What has become of music over time?<br>
+        What is being fed into people’s ears?</p>
+        <p>I have a premonition that there has been a deterioration in music over the decades.<br>
+        So I took about six thousand Year-End songs as the object of this study.<br>
+        And I recorded what people on the internet thought about music then vs. now.<br>
+        Let’s see how their claims stand.</p>
+      </div>
+      <p class="line small" id="author-data"></p>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ 12. method + notes ============ -->
+<section class="slide" id="method">
+  <div class="col">
+    <h2 class="beat-title">How this was done</h2>
+    <p class="prose" id="method-corpus"></p>
+    <p class="prose">Each song’s full lyric was read in context against the same fixed questions: does it describe sex graphically, is violence threatened or carried out, is drug use or dealing described (not just a drug named), and so on. Strong swearing is a word count from a fixed list, not a reading. Genre tags come from catalog listings and overlap: a song can be pop and hip-hop at once. “Without hip-hop” means every song with no hip-hop tag at all.</p>
+    <p class="prose">Every share is the songs that did the thing, out of all the songs in that period. Charts move in five-year steps, with 2025 folded into 2020–25. A genre is not drawn in a period where it has too few songs to count.</p>
+    <h3 class="minor">How often two readings agreed</h3>
+    <div class="grid-wrap" id="agree"></div>
+  </div>
+</section>
+<section class="beat notes" id="notes">
+  <div class="col">
+    <h2 class="beat-title">Notes</h2>
+    <ol class="notes-list" id="notes-list"></ol>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="col">
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode">☀</button>
+    <p>No lyrics are reproduced on this page. <span id="footer-generated"></span></p>
+    <p><a href="https://github.com/aldhen-g/songs-through-time">Code and methods on GitHub</a></p>
+  </div>
+</footer>
+<script src="app.js?v=86"></script>
+<script src="story.js?v=93"></script>
+</body>
+</html>

@@ -1,0 +1,695 @@
+{
+ "all": {
+  "by_decade": {
+   "1960s": {
+    "coke": {
+     "max_in_one_song": 0,
+     "mentions": 0,
+     "songs": 1,
+     "songs_with_mentions": 0
+    },
+    "pills": {
+     "max_in_one_song": 2,
+     "mentions": 4,
+     "songs": 2,
+     "songs_with_mentions": 2
+    },
+    "weed": {
+     "max_in_one_song": 12,
+     "mentions": 30,
+     "songs": 6,
+     "songs_with_mentions": 5
+    }
+   },
+   "1970s": {
+    "coke": {
+     "max_in_one_song": 5,
+     "mentions": 7,
+     "songs": 3,
+     "songs_with_mentions": 3
+    },
+    "heroin": {
+     "max_in_one_song": 6,
+     "mentions": 6,
+     "songs": 2,
+     "songs_with_mentions": 1
+    },
+    "pills": {
+     "max_in_one_song": 1,
+     "mentions": 2,
+     "songs": 4,
+     "songs_with_mentions": 2
+    },
+    "weed": {
+     "max_in_one_song": 4,
+     "mentions": 12,
+     "songs": 11,
+     "songs_with_mentions": 6
+    },
+    "xans": {
+     "max_in_one_song": 0,
+     "mentions": 0,
+     "songs": 1,
+     "songs_with_mentions": 0
+    }
+   },
+   "1980s": {
+    "coke": {
+     "max_in_one_song": 1,
+     "mentions": 4,
+     "songs": 6,
+     "songs_with_mentions": 4
+    },
+    "heroin": {
+     "max_in_one_song": 2,
+     "mentions": 3,
+     "songs": 2,
+     "songs_with_mentions": 2
+    },
+    "percs": {
+     "max_in_one_song": 0,
+     "mentions": 0,
+     "songs": 1,
+     "songs_with_mentions": 0
+    },
+    "pills": {
+     "max_in_one_song": 1,
+     "mentions": 4,
+     "songs": 5,
+     "songs_with_mentions": 4
+    },
+    "weed": {
+     "max_in_one_song": 3,
+     "mentions": 8,
+     "songs": 7,
+     "songs_with_mentions": 4
+    },
+    "xans": {
+     "max_in_one_song": 1,
+     "mentions": 1,
+     "songs": 1,
+     "songs_with_mentions": 1
+    }
+   },
+   "1990s": {
+    "addy": {
+     "max_in_one_song": 0,
+     "mentions": 0,
+     "songs": 2,
+     "songs_with_mentions": 0
+    },
+    "coke": {
+     "max_in_one_song": 5,
+     "mentions": 47,
+     "songs": 27,
+     "songs_with_mentions": 22
+    },
+    "heroin": {
+     "max_in_one_song": 0,
+     "mentions": 0,
+     "songs": 3,
+     "songs_with_mentions": 0
+    },
+    "molly": {
+     "max_in_one_song": 9,
+     "mentions": 10,
+     "songs": 3,
+     "songs_with_mentions": 2
+    },
+    "percs": {
+     "max_in_one_song": 1,
+     "mentions": 1,
+     "songs": 1,
+     "songs_with_mentions": 1
+    },
+    "pills": {
+     "max_in_one_song": 1,
+     "mentions": 2,
+     "songs": 2,
+     "songs_with_mentions": 2
+    },
+    "weed": {
+     "max_in_one_song": 21,
+     "mentions": 217,
+     "songs": 84,
+     "songs_with_mentions": 69
+    },
+    "xans": {
+     "max_in_one_song": 1,
+     "mentions": 1,
+     "songs": 2,
+     "songs_with_mentions": 1
+    }
+   },
+   "2000s": {
+    "coke": {
+     "max_in_one_song": 21,
+     "mentions": 116,
+     "songs": 52,
+     "songs_with_mentions": 42
+    },
+    "heroin": {
+     "max_in_one_song": 1,
+     "mentions": 3,
+     "songs": 5,
+     "songs_with_mentions": 3
+    },
+    "lean": {
+     "max_in_one_song": 18,
+     "mentions": 39,
+     "songs": 11,
+     "songs_with_mentions": 10
+    },
+    "molly": {
+     "max_in_one_song": 1,
+     "mentions": 5,
+     "songs": 18,
+     "songs_with_mentions": 5
+    },
+    "percs": {
+     "max_in_one_song": 3,
+     "mentions": 3,
+     "songs": 1,
+     "songs_with_mentions": 1
+    },
+    "pills": {
+     "max_in_one_song": 7,
+     "mentions": 16,
+     "songs": 11,
+     "songs_with_mentions": 9
+    },
+    "weed": {
+     "max_in_one_song": 18,
+     "mentions": 309,
+     "songs": 111,
+     "songs_with_mentions": 94
+    },
+    "xans": {
+     "max_in_one_song": 0,
+     "mentions": 0,
+     "songs": 2,
+     "songs_with_mentions": 0
+    }
+   },
+   "2010s": {
+    "addy": {
+     "max_in_one_song": 1,
+     "mentions": 5,
+     "songs": 6,
+     "songs_with_mentions": 5
+    },
+    "coke": {
+     "max_in_one_song": 6,
+     "mentions": 87,
+     "songs": 57,
+     "songs_with_mentions": 38
+    },
+    "heroin": {
+     "max_in_one_song": 2,
+     "mentions": 3,
+     "songs": 2,
+     "songs_with_mentions": 2
+    },
+    "lean": {
+     "max_in_one_song": 9,
+     "mentions": 60,
+     "songs": 37,
+     "songs_with_mentions": 28
+    },
+    "molly": {
+     "max_in_one_song": 10,
+     "mentions": 37,
+     "songs": 17,
+     "songs_with_mentions": 15
+    },
+    "percs": {
+     "max_in_one_song": 18,
+     "mentions": 37,
+     "songs": 12,
+     "songs_with_mentions": 10
+    },
+    "pills": {
+     "max_in_one_song": 3,
+     "mentions": 12,
+     "songs": 13,
+     "songs_with_mentions": 8
+    },
+    "weed": {
+     "max_in_one_song": 34,
+     "mentions": 394,
+     "songs": 123,
+     "songs_with_mentions": 106
+    },
+    "xans": {
+     "max_in_one_song": 2,
+     "mentions": 14,
+     "songs": 11,
+     "songs_with_mentions": 11
+    }
+   },
+   "2020s": {
+    "addy": {
+     "max_in_one_song": 5,
+     "mentions": 9,
+     "songs": 7,
+     "songs_with_mentions": 3
+    },
+    "coke": {
+     "max_in_one_song": 4,
+     "mentions": 29,
+     "songs": 30,
+     "songs_with_mentions": 18
+    },
+    "lean": {
+     "max_in_one_song": 8,
+     "mentions": 61,
+     "songs": 34,
+     "songs_with_mentions": 27
+    },
+    "molly": {
+     "max_in_one_song": 14,
+     "mentions": 31,
+     "songs": 15,
+     "songs_with_mentions": 12
+    },
+    "percs": {
+     "max_in_one_song": 5,
+     "mentions": 23,
+     "songs": 12,
+     "songs_with_mentions": 11
+    },
+    "pills": {
+     "max_in_one_song": 2,
+     "mentions": 17,
+     "songs": 20,
+     "songs_with_mentions": 13
+    },
+    "weed": {
+     "max_in_one_song": 18,
+     "mentions": 161,
+     "songs": 74,
+     "songs_with_mentions": 56
+    },
+    "xans": {
+     "max_in_one_song": 8,
+     "mentions": 8,
+     "songs": 1,
+     "songs_with_mentions": 1
+    }
+   }
+  },
+  "n_songs_by_decade": {
+   "1960s": 931,
+   "1970s": 967,
+   "1980s": 991,
+   "1990s": 951,
+   "2000s": 922,
+   "2010s": 888,
+   "2020s": 515
+  }
+ },
+ "decades": [
+  "1960s",
+  "1970s",
+  "1980s",
+  "1990s",
+  "2000s",
+  "2010s",
+  "2020s"
+ ],
+ "hip_hop": {
+  "by_decade": {
+   "1980s": {
+    "coke": {
+     "max_in_one_song": 1,
+     "mentions": 1,
+     "songs": 1,
+     "songs_with_mentions": 1
+    },
+    "weed": {
+     "max_in_one_song": 1,
+     "mentions": 1,
+     "songs": 1,
+     "songs_with_mentions": 1
+    }
+   },
+   "1990s": {
+    "addy": {
+     "max_in_one_song": 0,
+     "mentions": 0,
+     "songs": 2,
+     "songs_with_mentions": 0
+    },
+    "coke": {
+     "max_in_one_song": 5,
+     "mentions": 42,
+     "songs": 26,
+     "songs_with_mentions": 21
+    },
+    "molly": {
+     "max_in_one_song": 1,
+     "mentions": 1,
+     "songs": 2,
+     "songs_with_mentions": 1
+    },
+    "weed": {
+     "max_in_one_song": 21,
+     "mentions": 198,
+     "songs": 72,
+     "songs_with_mentions": 59
+    }
+   },
+   "2000s": {
+    "coke": {
+     "max_in_one_song": 21,
+     "mentions": 105,
+     "songs": 49,
+     "songs_with_mentions": 39
+    },
+    "heroin": {
+     "max_in_one_song": 1,
+     "mentions": 2,
+     "songs": 3,
+     "songs_with_mentions": 2
+    },
+    "lean": {
+     "max_in_one_song": 18,
+     "mentions": 39,
+     "songs": 11,
+     "songs_with_mentions": 10
+    },
+    "molly": {
+     "max_in_one_song": 1,
+     "mentions": 4,
+     "songs": 16,
+     "songs_with_mentions": 4
+    },
+    "pills": {
+     "max_in_one_song": 2,
+     "mentions": 6,
+     "songs": 5,
+     "songs_with_mentions": 5
+    },
+    "weed": {
+     "max_in_one_song": 18,
+     "mentions": 274,
+     "songs": 98,
+     "songs_with_mentions": 86
+    },
+    "xans": {
+     "max_in_one_song": 0,
+     "mentions": 0,
+     "songs": 2,
+     "songs_with_mentions": 0
+    }
+   },
+   "2010s": {
+    "addy": {
+     "max_in_one_song": 1,
+     "mentions": 4,
+     "songs": 4,
+     "songs_with_mentions": 4
+    },
+    "coke": {
+     "max_in_one_song": 6,
+     "mentions": 86,
+     "songs": 53,
+     "songs_with_mentions": 37
+    },
+    "heroin": {
+     "max_in_one_song": 1,
+     "mentions": 1,
+     "songs": 1,
+     "songs_with_mentions": 1
+    },
+    "lean": {
+     "max_in_one_song": 9,
+     "mentions": 56,
+     "songs": 35,
+     "songs_with_mentions": 27
+    },
+    "molly": {
+     "max_in_one_song": 10,
+     "mentions": 33,
+     "songs": 14,
+     "songs_with_mentions": 13
+    },
+    "percs": {
+     "max_in_one_song": 18,
+     "mentions": 34,
+     "songs": 10,
+     "songs_with_mentions": 8
+    },
+    "pills": {
+     "max_in_one_song": 3,
+     "mentions": 9,
+     "songs": 9,
+     "songs_with_mentions": 7
+    },
+    "weed": {
+     "max_in_one_song": 34,
+     "mentions": 354,
+     "songs": 95,
+     "songs_with_mentions": 83
+    },
+    "xans": {
+     "max_in_one_song": 2,
+     "mentions": 13,
+     "songs": 10,
+     "songs_with_mentions": 10
+    }
+   },
+   "2020s": {
+    "addy": {
+     "max_in_one_song": 5,
+     "mentions": 9,
+     "songs": 5,
+     "songs_with_mentions": 3
+    },
+    "coke": {
+     "max_in_one_song": 4,
+     "mentions": 26,
+     "songs": 23,
+     "songs_with_mentions": 17
+    },
+    "lean": {
+     "max_in_one_song": 8,
+     "mentions": 56,
+     "songs": 31,
+     "songs_with_mentions": 25
+    },
+    "molly": {
+     "max_in_one_song": 14,
+     "mentions": 23,
+     "songs": 11,
+     "songs_with_mentions": 9
+    },
+    "percs": {
+     "max_in_one_song": 5,
+     "mentions": 21,
+     "songs": 10,
+     "songs_with_mentions": 9
+    },
+    "pills": {
+     "max_in_one_song": 2,
+     "mentions": 8,
+     "songs": 10,
+     "songs_with_mentions": 7
+    },
+    "weed": {
+     "max_in_one_song": 8,
+     "mentions": 102,
+     "songs": 47,
+     "songs_with_mentions": 41
+    },
+    "xans": {
+     "max_in_one_song": 8,
+     "mentions": 8,
+     "songs": 1,
+     "songs_with_mentions": 1
+    }
+   }
+  },
+  "n_songs_by_decade": {
+   "1980s": 11,
+   "1990s": 197,
+   "2000s": 322,
+   "2010s": 300,
+   "2020s": 169
+  }
+ },
+ "note": "songs = songs the reader tagged with the drug. mentions = times the drug's words occur in those songs (a word only counts in a song already tagged with that drug). No lyric text is stored.",
+ "schema": "drug-mentions/v1",
+ "source": "cards.csv drugs.substances (reader) gating a word count over the hash-locked lyric bodies",
+ "terms": {
+  "addy": [
+   "addy",
+   "addies",
+   "adderall",
+   "adderalls",
+   "vyvanse",
+   "ritalin"
+  ],
+  "coke": [
+   "coke",
+   "cocaine",
+   "crack",
+   "blow",
+   "yayo",
+   "yay",
+   "snow",
+   "white lines",
+   "brick",
+   "bricks",
+   "kilo",
+   "kilos",
+   "powder",
+   "8 ball",
+   "eight ball",
+   "the white",
+   "white girl",
+   "nose candy",
+   "rock",
+   "rocks"
+  ],
+  "heroin": [
+   "heroin",
+   "smack",
+   "needle",
+   "needles",
+   "syringe",
+   "dope",
+   "junkie",
+   "china white",
+   "black tar",
+   "shoot up",
+   "shooting up"
+  ],
+  "lean": [
+   "lean",
+   "drank",
+   "codeine",
+   "wock",
+   "wockhardt",
+   "actavis",
+   "promethazine",
+   "sizzurp",
+   "syrup",
+   "double cup",
+   "styrofoam",
+   "pour up",
+   "tris",
+   "purple drank",
+   "hi tech",
+   "mud"
+  ],
+  "molly": [
+   "molly",
+   "mollies",
+   "ecstasy",
+   "mdma",
+   "thizz",
+   "e pill",
+   "e pills",
+   "x pill",
+   "x pills",
+   "beans",
+   "bean"
+  ],
+  "percs": [
+   "perc",
+   "percs",
+   "percocet",
+   "percocets",
+   "perky",
+   "perkies",
+   "perk",
+   "perks",
+   "oxy",
+   "oxys",
+   "oxycontin",
+   "oxycodone",
+   "hydrocodone",
+   "vicodin",
+   "lortab",
+   "roxy",
+   "roxies",
+   "fentanyl",
+   "fent",
+   "morphine",
+   "opioid",
+   "opioids",
+   "opiates"
+  ],
+  "pills": [
+   "pill",
+   "pills",
+   "prescription",
+   "prescriptions"
+  ],
+  "weed": [
+   "weed",
+   "marijuana",
+   "blunt",
+   "blunts",
+   "joint",
+   "joints",
+   "kush",
+   "ganja",
+   "reefer",
+   "zaza",
+   "za",
+   "backwoods",
+   "backwood",
+   "spliff",
+   "spliffs",
+   "chronic",
+   "mary jane",
+   "pot",
+   "herb",
+   "dro",
+   "loud",
+   "gas",
+   "cookies",
+   "runtz",
+   "indica",
+   "sativa",
+   "thc",
+   "dab",
+   "dabs",
+   "wax",
+   "shatter",
+   "roll up",
+   "rolling up",
+   "rollin' up",
+   "purple haze",
+   "smoke",
+   "smokin",
+   "smokin'",
+   "smoking",
+   "tree",
+   "trees",
+   "pack",
+   "packs",
+   "gelato",
+   "stoned",
+   "high"
+  ],
+  "xans": [
+   "xan",
+   "xans",
+   "xanny",
+   "xannies",
+   "xanax",
+   "xanaxes",
+   "bars",
+   "bar",
+   "benzo",
+   "benzos",
+   "valium",
+   "klonopin",
+   "zanny",
+   "zannies"
+  ]
+ }
+}

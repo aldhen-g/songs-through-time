@@ -1,0 +1,2076 @@
+{
+ "exhibit": {
+  "artist": "The Weeknd",
+  "award": "Kids' Choice Awards Favorite Song",
+  "award_year": 2016,
+  "reading": null,
+  "reading_withheld": "quotation mark",
+  "song_id": "R8f9b06e2443a9a0e",
+  "source_note": "notes/kids-public-ear-pass.md",
+  "status": "nominee",
+  "title": "Can't Feel My Face",
+  "year": 2015
+ },
+ "generated_at": "2026-09-22T16:20:35+00:00",
+ "group": "kca_kidz_bop",
+ "group_lists": [
+  "kca",
+  "kidz-bop"
+ ],
+ "max_per_measure": 12,
+ "max_quote_chars": 200,
+ "max_quote_lines": 2,
+ "max_reading_chars": 220,
+ "measures": {
+  "drugs_use_or_sale": {
+   "candidates": [
+    {
+     "artist": "Lola Young",
+     "evidence_lines": [
+      11,
+      43,
+      45,
+      49
+     ],
+     "level": "use",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Smoking, wine and both partners getting high are narrated matter-of-factly as points of contention.",
+     "song_id": "R357b121e53113b02",
+     "source": "yearend",
+     "title": "Messy",
+     "year": 2025
+    },
+    {
+     "artist": "Travis Scott",
+     "evidence_lines": [
+      17,
+      44,
+      60,
+      87
+     ],
+     "level": "use",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Half a Xanax to sleep through a flight, plus cognac and vodka in scene, all narrated without comment.",
+     "song_id": "R627c0ef2057276b6",
+     "source": "yearend",
+     "title": "Sicko Mode",
+     "year": 2018
+    },
+    {
+     "artist": "The Weeknd",
+     "evidence_lines": [
+      28,
+      34
+     ],
+     "level": "use",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Drinking to blur fear and being faded on the floor are shown as how he copes, narrated without verdict (28, 34).",
+     "song_id": "R1a4689d6cec76835",
+     "source": "yearend",
+     "title": "Cry for Me",
+     "year": 2025
+    },
+    {
+     "artist": "Luke Combs",
+     "evidence_lines": [
+      20,
+      60
+     ],
+     "level": "use",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "The father's bottle and the partner's nights at the bar are both named as what wrecks a life.",
+     "song_id": "R8932f72fd3a0aaaf",
+     "source": "yearend",
+     "title": "Fast Car",
+     "year": 2023
+    },
+    {
+     "artist": "Lizzo",
+     "evidence_lines": [
+      27
+     ],
+     "level": "use",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Two shots wanted as part of the night out, presented lightly.",
+     "song_id": "Raf1f235dc1d5f034",
+     "source": "yearend",
+     "title": "About Damn Time",
+     "year": 2022
+    },
+    {
+     "artist": "Saweetie featuring Doja Cat",
+     "evidence_lines": [
+      3,
+      37,
+      42
+     ],
+     "level": "use",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Drinks counted, a fifth shot and getting drunk are part of the night out, neither warned against nor made the point.",
+     "song_id": "R35ea746bac161136",
+     "source": "yearend",
+     "title": "Best Friend",
+     "year": 2021
+    },
+    {
+     "artist": "Billie Eilish",
+     "evidence_lines": [
+      25,
+      26
+     ],
+     "level": "use",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "He calls drunk and drives home under the influence \u2014 narrated as something that scared her to death, not as a good time.",
+     "song_id": "R094f3cc683c78679",
+     "source": "yearend",
+     "title": "Happier Than Ever",
+     "year": 2021
+    },
+    {
+     "artist": "The Kid Laroi and Justin Bieber",
+     "evidence_lines": [
+      6
+     ],
+     "level": "use",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Getting drunk and waking still wasted is named as part of the wasted time he regrets.",
+     "song_id": "Rb4ed492ece7e6b0c",
+     "source": "yearend",
+     "title": "Stay",
+     "year": 2021
+    },
+    {
+     "artist": "Maroon 5",
+     "evidence_lines": [
+      3,
+      18
+     ],
+     "level": "use",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Raising a glass is the song's ritual \u2014 drink as remembrance rather than glorified or warned against.",
+     "song_id": "R8901edec1625be48",
+     "source": "yearend",
+     "title": "Memories",
+     "year": 2020
+    },
+    {
+     "artist": "Lil Nas X featuring Billy Ray Cyrus",
+     "evidence_lines": [
+      24
+     ],
+     "level": "use",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "One passing line about lean, delivered as a punchline rather than celebrated or warned against.",
+     "song_id": "R8040d86fdf60ff61",
+     "source": "yearend",
+     "title": "Old Town Road",
+     "year": 2019
+    },
+    {
+     "artist": "5 Seconds of Summer",
+     "evidence_lines": [
+      28
+     ],
+     "level": "use",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Drunk-dialling is narrated as a habit of the pair, without comment.",
+     "song_id": "R003553e467cb7faa",
+     "source": "yearend",
+     "title": "Youngblood",
+     "year": 2018
+    },
+    {
+     "artist": "Kygo and Selena Gomez",
+     "evidence_lines": [
+      2,
+      20
+     ],
+     "level": "use",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Whisky in the dream and his being drunk and alone is the pattern she walks away from.",
+     "song_id": "R8830a167924bfc76",
+     "source": "yearend",
+     "title": "It Ain't Me",
+     "year": 2017
+    }
+   ],
+   "dropped": [
+    {
+     "artist": "Jessie Murph",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      28
+     ],
+     "level": "use",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R2ca306cfa6f0d876",
+     "source": "yearend",
+     "title": "Blue Strips",
+     "year": 2025
+    },
+    {
+     "artist": "Jessie Murph and Jelly Roll",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      6,
+      11,
+      13
+     ],
+     "level": "use",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R373aaf43bd758c98",
+     "source": "yearend",
+     "title": "Wild Ones",
+     "year": 2024
+    },
+    {
+     "artist": "Trevor Daniel",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      13
+     ],
+     "level": "use",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R44fc768f3584e875",
+     "source": "yearend",
+     "title": "Falling",
+     "year": 2020
+    },
+    {
+     "artist": "Nicki Minaj",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      3,
+      5,
+      21,
+      28
+     ],
+     "level": "use",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R4f169b003c4a5f0d",
+     "source": "yearend",
+     "title": "Starships",
+     "year": 2012
+    },
+    {
+     "artist": "G-Eazy and Bebe Rexha",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      10,
+      49,
+      50
+     ],
+     "level": "use",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R6253335644152812",
+     "source": "yearend",
+     "title": "Me, Myself & I",
+     "year": 2016
+    },
+    {
+     "artist": "Flo Rida featuring Sia",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      19,
+      25,
+      43,
+      56
+     ],
+     "level": "use",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R6dd4bc5cfc1830fe",
+     "source": "yearend",
+     "title": "Wild Ones",
+     "year": 2012
+    },
+    {
+     "artist": "The Weeknd",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      2,
+      11,
+      15
+     ],
+     "level": "use",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R8f9b06e2443a9a0e",
+     "source": "yearend",
+     "title": "Can't Feel My Face",
+     "year": 2015
+    },
+    {
+     "artist": "Shaboozey",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      3,
+      5,
+      11
+     ],
+     "level": "use",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R961aec71fc3298ad",
+     "source": "yearend",
+     "title": "Good News",
+     "year": 2025
+    },
+    {
+     "artist": "Pitbull and Ne-Yo",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      14,
+      18,
+      69,
+      70
+     ],
+     "level": "use",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R986870488eafc959",
+     "source": "yearend",
+     "title": "Time of Our Lives",
+     "year": 2015
+    },
+    {
+     "artist": "Katy Perry",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      8
+     ],
+     "level": "use",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Rbcdabf6e92a62365",
+     "source": "yearend",
+     "title": "The One That Got Away",
+     "year": 2012
+    },
+    {
+     "artist": "Ed Sheeran",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      5,
+      9,
+      14,
+      16
+     ],
+     "level": "use",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Rcc0d4df87511e213",
+     "source": "yearend",
+     "title": "Bad Habits",
+     "year": 2021
+    },
+    {
+     "artist": "Beyonc\u00e9",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      4,
+      9,
+      36
+     ],
+     "level": "use",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Rd9403ab0c8e62f79",
+     "source": "yearend",
+     "title": "Cuff It",
+     "year": 2023
+    },
+    {
+     "artist": "The Chainsmokers",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      9,
+      23
+     ],
+     "level": "use",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Rde8c2951e857790c",
+     "source": "yearend",
+     "title": "Paris",
+     "year": 2017
+    },
+    {
+     "artist": "Natalie La Rose featuring Jeremih",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      5
+     ],
+     "level": "use",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Re0e1d07a771b9139",
+     "source": "yearend",
+     "title": "Somebody",
+     "year": 2015
+    },
+    {
+     "artist": "SZA",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      45
+     ],
+     "level": "use",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Redbac183e985da95",
+     "source": "yearend",
+     "title": "BMF",
+     "year": 2025
+    },
+    {
+     "artist": "Ti\u00ebsto feat. Tate McRae",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      31
+     ],
+     "level": "use",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "KS42d7bbb0791f7beb",
+     "source": "side",
+     "title": "10:35",
+     "year": 2023
+    },
+    {
+     "artist": "Macklemore feat. Kesha",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      31,
+      35
+     ],
+     "level": "use",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "KS88f925c8969295d0",
+     "source": "side",
+     "title": "Good Old Days",
+     "year": 2018
+    },
+    {
+     "artist": "Dasha",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      3,
+      9,
+      21,
+      29
+     ],
+     "level": "use",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "KS97f2729c5d08cf78",
+     "source": "side",
+     "title": "Austin (Boots Stop Workin')",
+     "year": 2025
+    }
+   ],
+   "label": "Drug use or sale described (not just mentioned)",
+   "n_candidates_available": 60,
+   "n_candidates_kept": 12,
+   "n_dropped_for_quotation_or_length": 18
+  },
+  "sex_graphic_or_explicit": {
+   "candidates": [
+    {
+     "artist": "Nicki Minaj and Ice Spice with Aqua",
+     "evidence_lines": [
+      13,
+      17,
+      24,
+      51
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Named anatomy and a described sex move would both be cut on radio; the register is status boast, not desire.",
+     "song_id": "R16f37aa81e721d02",
+     "source": "yearend",
+     "title": "Barbie World",
+     "year": 2023
+    },
+    {
+     "artist": "Doja Cat",
+     "evidence_lines": [
+      26
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "One line names a partner's anatomy in slang as a flex about her own good time; a radio edit bleeps it.",
+     "song_id": "R243e0b4b29db0aa4",
+     "source": "yearend",
+     "title": "Paint the Town Red",
+     "year": 2023
+    },
+    {
+     "artist": "Megan Thee Stallion and Dua Lipa",
+     "evidence_lines": [
+      14,
+      16,
+      27,
+      30,
+      50
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Genitals named plainly and acts described; the hook's pie conceit is suggestive but the verses need bleeping.",
+     "song_id": "R1f5828c253d411da",
+     "source": "yearend",
+     "title": "Sweetest Pie",
+     "year": 2022
+    },
+    {
+     "artist": "The Weeknd",
+     "evidence_lines": [
+      11,
+      15,
+      23
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Bodily detail of heat between her thighs plus a hook about breath-play; she names the fantasy and asks for it.",
+     "song_id": "Rf65c5c8b41db5a1f",
+     "source": "yearend",
+     "title": "Take My Breath",
+     "year": 2021
+    },
+    {
+     "artist": "Post Malone featuring Doja Cat",
+     "evidence_lines": [
+      22,
+      33,
+      47,
+      65
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Doja's line 47 names genitals and line 22 describes an act; the radio edit cuts both. Hook itself stays clean.",
+     "song_id": "R27441ffa11ee803e",
+     "source": "yearend",
+     "title": "I Like You (A Happier Song)",
+     "year": 2022
+    },
+    {
+     "artist": "Saweetie featuring Doja Cat",
+     "evidence_lines": [
+      4,
+      19,
+      32,
+      55
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Line 19 states plainly what rich boys want and would be bleeped; the hook itself stays at twerking and strip-club talk, so in_chorus is false.",
+     "song_id": "R35ea746bac161136",
+     "source": "yearend",
+     "title": "Best Friend",
+     "year": 2021
+    },
+    {
+     "artist": "Cardi B",
+     "evidence_lines": [
+      14,
+      28,
+      60
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Genital slang in the repeated pre-hook plus a group-sex line; the supplied text is already word-censored.",
+     "song_id": "R610a64e7dc7762d2",
+     "source": "yearend",
+     "title": "Up",
+     "year": 2021
+    },
+    {
+     "artist": "Travis Scott",
+     "evidence_lines": [
+      37,
+      39,
+      42
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "The Uncle Luke sample at line 39 names anatomy plainly and would be bleeped on radio; the surrounding lines are conquest boasting.",
+     "song_id": "R627c0ef2057276b6",
+     "source": "yearend",
+     "title": "Sicko Mode",
+     "year": 2018
+    },
+    {
+     "artist": "Kendrick Lamar",
+     "evidence_lines": [
+      14,
+      21,
+      49
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Names genitals and his own performance in slang a radio edit must bleep.",
+     "song_id": "Ra090c00fb8184227",
+     "source": "yearend",
+     "title": "Humble",
+     "year": 2017
+    },
+    {
+     "artist": "DJ Khaled featuring Justin Bieber, Quavo, Chance the Rapper and Lil Wayne",
+     "evidence_lines": [
+      32,
+      75,
+      77,
+      84
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Chance names anatomy plainly (75); the hook itself stays clean.",
+     "song_id": "R402c1dea391d6d8b",
+     "source": "yearend",
+     "title": "I'm the One",
+     "year": 2017
+    },
+    {
+     "artist": "Fifth Harmony featuring Ty Dolla Sign",
+     "evidence_lines": [
+      18,
+      26,
+      27,
+      46,
+      57
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Ty's verse names the act in slang a clean edit would cut; the women's verses stay at sheets-and-body level and the hook one rung below.",
+     "song_id": "R7de466aba540c2c7",
+     "source": "yearend",
+     "title": "Work from Home",
+     "year": 2016
+    },
+    {
+     "artist": "David Guetta, Anne-Marie and Coi Leray",
+     "evidence_lines": [
+      3,
+      25,
+      27,
+      28
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "The rap verse names her bodily arousal and turns her body into a place to dive into: a radio edit would have to cut it.",
+     "song_id": "KS797fc6e656c607c7",
+     "source": "side",
+     "title": "Baby Don't Hurt Me",
+     "year": 2024
+    }
+   ],
+   "dropped": [
+    {
+     "artist": "Billie Eilish",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      5,
+      11,
+      17,
+      22
+     ],
+     "level": "explicit",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R2c882d735b28a6e8",
+     "source": "yearend",
+     "title": "Bad Guy",
+     "year": 2019
+    },
+    {
+     "artist": "David Guetta featuring Nicki Minaj, Bebe Rexha and Afrojack",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      21,
+      33,
+      53,
+      70
+     ],
+     "level": "graphic",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R3178d69313c94276",
+     "source": "yearend",
+     "title": "Hey Mama",
+     "year": 2015
+    },
+    {
+     "artist": "Marshmello and Jonas Brothers",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      8,
+      14,
+      29
+     ],
+     "level": "explicit",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R39f5a000f07a78af",
+     "source": "yearend",
+     "title": "Leave Before You Love Me",
+     "year": 2021
+    },
+    {
+     "artist": "Justin Bieber",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      1,
+      23,
+      38
+     ],
+     "level": "explicit",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R43fad6da50166b1d",
+     "source": "yearend",
+     "title": "Yummy",
+     "year": 2020
+    },
+    {
+     "artist": "Calvin Harris featuring Rihanna",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      1,
+      22,
+      25
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R482a1ec5f5909adb",
+     "source": "yearend",
+     "title": "This Is What You Came For",
+     "year": 2016
+    },
+    {
+     "artist": "Ellie Goulding",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      15,
+      20,
+      22
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R50172c09f7d39e7d",
+     "source": "yearend",
+     "title": "Love Me Like You Do",
+     "year": 2015
+    },
+    {
+     "artist": "Drake",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      43,
+      44,
+      66,
+      68
+     ],
+     "level": "explicit",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R51517f6e10cdfa61",
+     "source": "yearend",
+     "title": "In My Feelings",
+     "year": 2018
+    },
+    {
+     "artist": "Luis Fonsi and Daddy Yankee featuring Justin Bieber",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      10,
+      26,
+      37,
+      50
+     ],
+     "level": "explicit",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R55ec94a1c28829a4",
+     "source": "yearend",
+     "title": "Despacito (Remix)",
+     "year": 2017
+    },
+    {
+     "artist": "Jung Kook featuring Latto",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      20,
+      27,
+      61,
+      65
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R565b58ae279958c1",
+     "source": "yearend",
+     "title": "Seven",
+     "year": 2023
+    },
+    {
+     "artist": "Fifth Harmony featuring Kid Ink",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      1,
+      10,
+      52,
+      54
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R66c0fb5635c6fee9",
+     "source": "yearend",
+     "title": "Worth It",
+     "year": 2015
+    },
+    {
+     "artist": "Flo Rida featuring Sia",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      3,
+      53,
+      72,
+      79
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R6dd4bc5cfc1830fe",
+     "source": "yearend",
+     "title": "Wild Ones",
+     "year": 2012
+    },
+    {
+     "artist": "Khalid and Normani",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      21,
+      28,
+      56
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R71eeddbd0b33cfd1",
+     "source": "yearend",
+     "title": "Love Lies",
+     "year": 2018
+    },
+    {
+     "artist": "Train",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      9,
+      26,
+      36
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R7503dd45d3e42b65",
+     "source": "yearend",
+     "title": "Drive By",
+     "year": 2012
+    },
+    {
+     "artist": "Bazzi featuring Camila Cabello",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      8,
+      29,
+      31
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R7c9bc1d8187b1d0b",
+     "source": "yearend",
+     "title": "Beautiful",
+     "year": 2019
+    },
+    {
+     "artist": "Justin Timberlake featuring Jay-Z",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      39,
+      40,
+      41,
+      44,
+      77
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R7ea9cd8d29af9ae1",
+     "source": "yearend",
+     "title": "Suit & Tie",
+     "year": 2013
+    },
+    {
+     "artist": "DNCE",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      20,
+      29,
+      30,
+      60
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R869822adb33251a3",
+     "source": "yearend",
+     "title": "Cake by the Ocean",
+     "year": 2016
+    },
+    {
+     "artist": "Ariana Grande featuring Nicki Minaj",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      3,
+      19,
+      53,
+      55
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Ra50b41cbbdde234c",
+     "source": "yearend",
+     "title": "Side to Side",
+     "year": 2016
+    },
+    {
+     "artist": "Jack Harlow",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      3,
+      17,
+      36
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Ra5d187529767acae",
+     "source": "yearend",
+     "title": "First Class",
+     "year": 2022
+    },
+    {
+     "artist": "Dua Lipa",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      21,
+      23
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Ra8050b1f61df7a9c",
+     "source": "yearend",
+     "title": "New Rules",
+     "year": 2018
+    },
+    {
+     "artist": "Tate McRae",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      75
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Rbc47d0aad218f2f1",
+     "source": "yearend",
+     "title": "Exes",
+     "year": 2024
+    },
+    {
+     "artist": "Tate McRae",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      5,
+      25,
+      33,
+      41
+     ],
+     "level": "explicit",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Rca98ef519984804b",
+     "source": "yearend",
+     "title": "Sports Car",
+     "year": 2025
+    },
+    {
+     "artist": "Teddy Swims",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      19,
+      27
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Rd6c81d82f2c71d06",
+     "source": "yearend",
+     "title": "Lose Control",
+     "year": 2024
+    },
+    {
+     "artist": "Chappell Roan",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      31,
+      34,
+      72
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Rd83adf9ec180e8d2",
+     "source": "yearend",
+     "title": "Hot to Go!",
+     "year": 2024
+    },
+    {
+     "artist": "Usher, Summer Walker and 21 Savage",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      44,
+      78
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Rda8598862b702a97",
+     "source": "yearend",
+     "title": "Good Good",
+     "year": 2024
+    },
+    {
+     "artist": "DJ Khaled featuring Justin Bieber, Chance the Rapper and Quavo",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      10,
+      29,
+      67
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Re018acfd49ed58f8",
+     "source": "yearend",
+     "title": "No Brainer",
+     "year": 2018
+    },
+    {
+     "artist": "Bruno Mars",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      17,
+      20,
+      45
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Re4f03a0e6b76eb9e",
+     "source": "yearend",
+     "title": "Locked Out of Heaven",
+     "year": 2013
+    },
+    {
+     "artist": "Justin Bieber featuring Daniel Caesar and Giveon",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      8,
+      9,
+      17,
+      20
+     ],
+     "level": "graphic",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Re75f4340c3cde65f",
+     "source": "yearend",
+     "title": "Peaches",
+     "year": 2021
+    },
+    {
+     "artist": "Selena Gomez featuring ASAP Rocky",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      13,
+      18,
+      40,
+      45
+     ],
+     "level": "explicit",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Re9481b7cd7912abb",
+     "source": "yearend",
+     "title": "Good for You",
+     "year": 2015
+    },
+    {
+     "artist": "SZA",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      3,
+      25,
+      51
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Redbac183e985da95",
+     "source": "yearend",
+     "title": "BMF",
+     "year": 2025
+    },
+    {
+     "artist": "Justin Bieber",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      21,
+      45
+     ],
+     "level": "explicit",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Ree6c9dfe8d7d49c7",
+     "source": "yearend",
+     "title": "What Do You Mean?",
+     "year": 2015
+    },
+    {
+     "artist": "Charlie Puth",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      6,
+      14,
+      23
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Rf2321506272048ec",
+     "source": "yearend",
+     "title": "How Long",
+     "year": 2018
+    },
+    {
+     "artist": "Jessie J, Ariana Grande and Nicki Minaj",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      3,
+      11,
+      17,
+      45,
+      51
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Rf434ead8bf257721",
+     "source": "yearend",
+     "title": "Bang Bang",
+     "year": 2014
+    },
+    {
+     "artist": "Taylor Swift",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      21,
+      22,
+      23,
+      44
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Rfc17d1a8f30ef216",
+     "source": "yearend",
+     "title": "Wildest Dreams",
+     "year": 2015
+    },
+    {
+     "artist": "Bruno Mars",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      3,
+      5,
+      30
+     ],
+     "level": "explicit",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Rff142a30943d6cc6",
+     "source": "yearend",
+     "title": "That's What I Like",
+     "year": 2017
+    },
+    {
+     "artist": "Pharrell Williams featuring Miley Cyrus",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      4,
+      6,
+      34
+     ],
+     "level": "explicit",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "KS01646be40c9c16ce",
+     "source": "side",
+     "title": "Doctor (Work It Out)",
+     "year": 2024
+    },
+    {
+     "artist": "Sabrina Carpenter",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      23,
+      24,
+      55
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "KS0eba8bef5f9aeec3",
+     "source": "side",
+     "title": "Nonsense",
+     "year": 2023
+    },
+    {
+     "artist": "Jennifer Lopez feat. Pitbull",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      20,
+      22,
+      69,
+      83
+     ],
+     "level": "explicit",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "KS121db3a4c48fde69",
+     "source": "side",
+     "title": "Dance Again",
+     "year": 2012
+    },
+    {
+     "artist": "Flo Rida feat. Sage the Gemini and Lookas",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      2,
+      4,
+      31
+     ],
+     "level": "graphic",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "KS53dac260acf08259",
+     "source": "side",
+     "title": "GDFR",
+     "year": 2015
+    },
+    {
+     "artist": "Selena Gomez, Benny Blanco, and Gracie Abrams",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      30
+     ],
+     "level": "explicit",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "KS6cdfad7dc499879c",
+     "source": "side",
+     "title": "Call Me When You Break Up",
+     "year": 2025
+    },
+    {
+     "artist": "Calvin Harris featuring Justin Timberlake, Halsey, Pharrell",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      19,
+      36,
+      64
+     ],
+     "level": "graphic",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "KSa2ef8ee100657328",
+     "source": "side",
+     "title": "Stay with Me",
+     "year": 2023
+    }
+   ],
+   "label": "Sex described graphically or explicitly",
+   "n_candidates_available": 69,
+   "n_candidates_kept": 12,
+   "n_dropped_for_quotation_or_length": 40
+  },
+  "violence_beyond_mention": {
+   "candidates": [
+    {
+     "artist": "Drake",
+     "evidence_lines": [
+      3,
+      29,
+      33,
+      39,
+      53
+     ],
+     "level": "threatened",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "A piece in the bag, shooters on the block and creeping where opps stay; stated coolly as standing conditions.",
+     "song_id": "Rd3ac013b7dde984c",
+     "source": "yearend",
+     "title": "Toosie Slide",
+     "year": 2020
+    },
+    {
+     "artist": "Kendrick Lamar",
+     "evidence_lines": [
+      28,
+      31,
+      64,
+      71
+     ],
+     "level": "threatened",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Hitting turf, beating him up and a crew about to kill him off are relished as proof of standing; the hook itself calls for a fight.",
+     "song_id": "Rddb07e8dd4d42db3",
+     "source": "yearend",
+     "title": "Squabble Up",
+     "year": 2025
+    },
+    {
+     "artist": "Lil Durk featuring J. Cole",
+     "evidence_lines": [
+      57,
+      61,
+      76,
+      91
+     ],
+     "level": "enacted",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Shootings and a hit ordered are reported as the environment both rappers came out of; the young rapper's murder (l.75-81) is mourned, and neither verse celebrates the killing.",
+     "song_id": "R381ef1e803cef6a5",
+     "source": "yearend",
+     "title": "All My Life",
+     "year": 2023
+    },
+    {
+     "artist": "Ariana Grande",
+     "evidence_lines": [
+      33,
+      34
+     ],
+     "level": "enacted",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Past school bullying \u2014 being hit between classes and dunked in a toilet \u2014 recalled as wrong done to her.",
+     "song_id": "KS3b8145772739dbcd",
+     "source": "side",
+     "title": "Popular",
+     "year": 2025
+    },
+    {
+     "artist": "Billie Eilish",
+     "evidence_lines": [
+      9,
+      10
+     ],
+     "level": "enacted",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Stepping off the Golden Gate happens inside the dream and is narrated with grief, not endorsed.",
+     "song_id": "Racfdfb990f5295e5",
+     "source": "yearend",
+     "title": "Everything I Wanted",
+     "year": 2020
+    },
+    {
+     "artist": "Kendrick Lamar and SZA",
+     "evidence_lines": [
+      8,
+      10
+     ],
+     "level": "threatened",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Taking her enemies before God and hitting them with fire is a protective threat, framed as righteous.",
+     "song_id": "R896a22c64aa2c860",
+     "source": "yearend",
+     "title": "Luther",
+     "year": 2025
+    },
+    {
+     "artist": "Taylor Swift featuring Post Malone",
+     "evidence_lines": [
+      13,
+      29,
+      34
+     ],
+     "level": "threatened",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Wanting to kill wife and husband is hyperbolic jealousy stated flatly, neither relished nor disowned.",
+     "song_id": "Re915d017ac348441",
+     "source": "yearend",
+     "title": "Fortnight",
+     "year": 2024
+    },
+    {
+     "artist": "Nicki Minaj and Ice Spice with Aqua",
+     "evidence_lines": [
+      40,
+      47
+     ],
+     "level": "threatened",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Dragging a rival until she's bald is battle-rap hyperbole aimed at women, delivered as flex.",
+     "song_id": "R16f37aa81e721d02",
+     "source": "yearend",
+     "title": "Barbie World",
+     "year": 2023
+    },
+    {
+     "artist": "Saweetie featuring Doja Cat",
+     "evidence_lines": [
+      35,
+      38,
+      39
+     ],
+     "level": "threatened",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "The friend will straighten anyone sideways and reach for a strap \u2014 loyalty flex aimed at unnamed provokers, presented admiringly.",
+     "song_id": "R35ea746bac161136",
+     "source": "yearend",
+     "title": "Best Friend",
+     "year": 2021
+    },
+    {
+     "artist": "Twenty One Pilots",
+     "evidence_lines": [
+      13,
+      14,
+      16,
+      52
+     ],
+     "level": "threatened",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Guns checked at the door but minds still grenades, a murderer in the next seat, and someone outside ready to bust \u2014 menace stated flatly, neither praised nor condemned.",
+     "song_id": "Rcde879cc9c4371ea",
+     "source": "yearend",
+     "title": "Heathens",
+     "year": 2016
+    },
+    {
+     "artist": "Katy Perry featuring Juicy J",
+     "evidence_lines": [
+      9,
+      14,
+      22
+     ],
+     "level": "threatened",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "Don't make me your enemy and no going back are veiled threats to the male partner, delivered as pop menace with no act described.",
+     "song_id": "R3e42b44e81f74401",
+     "source": "yearend",
+     "title": "Dark Horse",
+     "year": 2014
+    },
+    {
+     "artist": "Cynthia Erivo featuring Ariana Grande",
+     "evidence_lines": [
+      89,
+      91
+     ],
+     "level": "threatened",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "reading": "The offstage mob calls for her death; the song reports the menace rather than endorsing or denouncing it in words.",
+     "song_id": "KS31d491445d0d297c",
+     "source": "side",
+     "title": "Defying Gravity",
+     "year": 2025
+    }
+   ],
+   "dropped": [
+    {
+     "artist": "Jessie Murph",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      29,
+      31
+     ],
+     "level": "threatened",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R2ca306cfa6f0d876",
+     "source": "yearend",
+     "title": "Blue Strips",
+     "year": 2025
+    },
+    {
+     "artist": "Jessie Murph and Jelly Roll",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      4,
+      38,
+      48
+     ],
+     "level": "threatened",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R373aaf43bd758c98",
+     "source": "yearend",
+     "title": "Wild Ones",
+     "year": 2024
+    },
+    {
+     "artist": "DJ Khaled featuring Justin Bieber, Quavo, Chance the Rapper and Lil Wayne",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      118
+     ],
+     "level": "threatened",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R402c1dea391d6d8b",
+     "source": "yearend",
+     "title": "I'm the One",
+     "year": 2017
+    },
+    {
+     "artist": "Cardi B",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      55,
+      73
+     ],
+     "level": "threatened",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R610a64e7dc7762d2",
+     "source": "yearend",
+     "title": "Up",
+     "year": 2021
+    },
+    {
+     "artist": "Travis Scott",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      67,
+      68,
+      71,
+      76,
+      82
+     ],
+     "level": "threatened",
+     "lists": [
+      "kca"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R627c0ef2057276b6",
+     "source": "yearend",
+     "title": "Sicko Mode",
+     "year": 2018
+    },
+    {
+     "artist": "Rihanna, Kanye West and Paul McCartney",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      7,
+      16,
+      34
+     ],
+     "level": "threatened",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R81794174f4ee4d6d",
+     "source": "yearend",
+     "title": "FourFiveSeconds",
+     "year": 2015
+    },
+    {
+     "artist": "Icona Pop featuring Charli XCX",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      2,
+      3
+     ],
+     "level": "enacted",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "R91cd7af591122de3",
+     "source": "yearend",
+     "title": "I Love It",
+     "year": 2013
+    },
+    {
+     "artist": "Taylor Swift",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      9,
+      19,
+      50
+     ],
+     "level": "threatened",
+     "lists": [
+      "kca",
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Re8087902b9aa8708",
+     "source": "yearend",
+     "title": "Look What You Made Me Do",
+     "year": 2017
+    },
+    {
+     "artist": "SZA",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      15,
+      26
+     ],
+     "level": "threatened",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "Redbac183e985da95",
+     "source": "yearend",
+     "title": "BMF",
+     "year": 2025
+    },
+    {
+     "artist": "The Kid Laroi",
+     "dropped_because": "quotation mark",
+     "evidence_lines": [
+      3,
+      26,
+      27
+     ],
+     "level": "enacted",
+     "lists": [
+      "kidz-bop"
+     ],
+     "quote": "",
+     "quote_lines": "",
+     "song_id": "KSe1db96c142ef056e",
+     "source": "side",
+     "title": "Love Again",
+     "year": 2023
+    }
+   ],
+   "label": "Violence threatened or enacted (not just mentioned)",
+   "n_candidates_available": 18,
+   "n_candidates_kept": 12,
+   "n_dropped_for_quotation_or_length": 10
+  }
+ },
+ "pinned": {
+  "drugs_use_or_sale": [
+   "R357b121e53113b02",
+   "R627c0ef2057276b6"
+  ],
+  "sex_graphic_or_explicit": [
+   "R16f37aa81e721d02",
+   "R243e0b4b29db0aa4",
+   "R1f5828c253d411da",
+   "Rf65c5c8b41db5a1f"
+  ],
+  "violence_beyond_mention": [
+   "Rd3ac013b7dde984c",
+   "Rddb07e8dd4d42db3"
+  ]
+ },
+ "quotes_refused": [],
+ "quotes_source": "config/kids-quotes.json",
+ "rules": [
+  "No lyric text. A reading carrying a quotation mark, an apostrophe outside a word, or a lyric: lead-in is dropped whole.",
+  "Readings over 220 characters are dropped.",
+  "Title, artist and year are chart metadata, not lyrics.",
+  "Order: pinned, then graphic/enacted/sale before the rung below, then Kids' Choice Awards picks, then Year-End hits, then newest.",
+  "A quote is the owner's own hand-entered excerpt from config/kids-quotes.json, at most 2 lines / 200 characters, with evidence_lines the card's own cited line numbers.",
+  "The exhibit is a 2016 Kids' Choice Awards Favorite Song NOMINEE, not a winner."
+ ],
+ "schema": "kids-examples/v1",
+ "sources": {
+  "membership": "as scripts/build_kids_full_catalogue.py",
+  "side_cards": "live/reads/kids-side-v1/<song_id>.json",
+  "yearend_cards": "live/reads/full-v3/<song_id>.json"
+ }
+}

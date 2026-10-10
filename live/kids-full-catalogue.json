@@ -1,0 +1,1340 @@
+{
+ "coverage": {
+  "kca": {
+   "measured_share_of_total": 1.0,
+   "out_of_scope": 0,
+   "out_of_scope_kidz_bop_original": 0,
+   "out_of_scope_never_fetched": 0,
+   "out_of_scope_unmatched": 0,
+   "side_planned": 28,
+   "side_read": 28,
+   "side_unread": 0,
+   "total": 166,
+   "yearend": 138
+  },
+  "kca_kidz_bop": {
+   "measured_share_of_total": 0.9829,
+   "out_of_scope": 12,
+   "out_of_scope_kidz_bop_original": 12,
+   "out_of_scope_never_fetched": 0,
+   "out_of_scope_unmatched": 0,
+   "side_planned": 198,
+   "side_read": 198,
+   "side_unread": 0,
+   "total": 702,
+   "yearend": 492
+  },
+  "kids_union": {
+   "measured_share_of_total": 0.9856,
+   "out_of_scope": 13,
+   "out_of_scope_kidz_bop_original": 12,
+   "out_of_scope_never_fetched": 0,
+   "out_of_scope_unmatched": 1,
+   "side_planned": 377,
+   "side_read": 377,
+   "side_unread": 0,
+   "total": 900,
+   "yearend": 510
+  },
+  "kidz-bop": {
+   "measured_share_of_total": 0.981,
+   "out_of_scope": 12,
+   "out_of_scope_kidz_bop_original": 12,
+   "out_of_scope_never_fetched": 0,
+   "out_of_scope_unmatched": 0,
+   "side_planned": 172,
+   "side_read": 172,
+   "side_unread": 0,
+   "total": 633,
+   "yearend": 449
+  },
+  "radio-disney": {
+   "measured_share_of_total": 0.9969,
+   "out_of_scope": 1,
+   "out_of_scope_kidz_bop_original": 0,
+   "out_of_scope_never_fetched": 0,
+   "out_of_scope_unmatched": 1,
+   "side_planned": 192,
+   "side_read": 192,
+   "side_unread": 0,
+   "total": 325,
+   "yearend": 132
+  },
+  "teen-choice": {
+   "measured_share_of_total": 1.0,
+   "out_of_scope": 0,
+   "out_of_scope_kidz_bop_original": 0,
+   "out_of_scope_never_fetched": 0,
+   "out_of_scope_unmatched": 0,
+   "side_planned": 166,
+   "side_read": 166,
+   "side_unread": 0,
+   "total": 466,
+   "yearend": 300
+  }
+ },
+ "generated_at": "2026-09-22T15:37:14+00:00",
+ "groups": [
+  "kca",
+  "kidz-bop",
+  "radio-disney",
+  "kca_kidz_bop",
+  "kids_union",
+  "teen-choice"
+ ],
+ "headline_measures": [
+  "sex_graphic",
+  "sex_graphic_or_explicit",
+  "violence_beyond_mention",
+  "drugs_use_or_sale",
+  "profanity_strong"
+ ],
+ "kca_kidz_bop_lists": [
+  "kca",
+  "kidz-bop"
+ ],
+ "kids_lists": [
+  "kca",
+  "kidz-bop",
+  "radio-disney"
+ ],
+ "lists": {
+  "kca": {
+   "full": {
+    "complete": true,
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 21,
+      "n": 166,
+      "share": 0.1265,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 39,
+      "n": 166,
+      "share": 0.2349,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 19,
+      "n": 166,
+      "share": 0.1145,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 39,
+      "n": 166,
+      "share": 0.2349,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 17,
+      "n": 166,
+      "share": 0.1024,
+      "unmeasured": 0
+     }
+    },
+    "n_songs": 166,
+    "reliable": true
+   },
+   "is_teen": false,
+   "shift_pp": {
+    "drugs_use_or_sale": -0.4,
+    "profanity_strong": -4.0,
+    "sex_graphic": 0.6,
+    "sex_graphic_or_explicit": 1.7,
+    "violence_beyond_mention": 0.1
+   },
+   "side": {
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 3,
+      "n": 28,
+      "share": 0.1071,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 1,
+      "n": 28,
+      "share": 0.0357,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 4,
+      "n": 28,
+      "share": 0.1429,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 9,
+      "n": 28,
+      "share": 0.3214,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 3,
+      "n": 28,
+      "share": 0.1071,
+      "unmeasured": 0
+     }
+    },
+    "n_planned": 28,
+    "n_songs": 28,
+    "n_unread": 0,
+    "reliable": false
+   },
+   "vs_chart": {
+    "basis": "yearend_only",
+    "chart": {
+     "measures": {
+      "drugs_use_or_sale": {
+       "hits": 388,
+       "n": 1405,
+       "share": 0.2762,
+       "unmeasured": 0
+      },
+      "profanity_strong": {
+       "hits": 479,
+       "n": 1405,
+       "share": 0.3409,
+       "unmeasured": 0
+      },
+      "sex_graphic": {
+       "hits": 255,
+       "n": 1405,
+       "share": 0.1815,
+       "unmeasured": 0
+      },
+      "sex_graphic_or_explicit": {
+       "hits": 447,
+       "n": 1405,
+       "share": 0.3181,
+       "unmeasured": 0
+      },
+      "violence_beyond_mention": {
+       "hits": 221,
+       "n": 1405,
+       "share": 0.1573,
+       "unmeasured": 0
+      }
+     },
+     "n_songs": 1405,
+     "reliable": true
+    },
+    "from_year": 2010,
+    "group": {
+     "measures": {
+      "drugs_use_or_sale": {
+       "hits": 18,
+       "n": 134,
+       "share": 0.1343,
+       "unmeasured": 0
+      },
+      "profanity_strong": {
+       "hits": 37,
+       "n": 134,
+       "share": 0.2761,
+       "unmeasured": 0
+      },
+      "sex_graphic": {
+       "hits": 15,
+       "n": 134,
+       "share": 0.1119,
+       "unmeasured": 0
+      },
+      "sex_graphic_or_explicit": {
+       "hits": 30,
+       "n": 134,
+       "share": 0.2239,
+       "unmeasured": 0
+      },
+      "violence_beyond_mention": {
+       "hits": 14,
+       "n": 134,
+       "share": 0.1045,
+       "unmeasured": 0
+      }
+     },
+     "n_songs": 134,
+     "reliable": true
+    }
+   },
+   "yearend": {
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 18,
+      "n": 138,
+      "share": 0.1304,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 38,
+      "n": 138,
+      "share": 0.2754,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 15,
+      "n": 138,
+      "share": 0.1087,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 30,
+      "n": 138,
+      "share": 0.2174,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 14,
+      "n": 138,
+      "share": 0.1014,
+      "unmeasured": 0
+     }
+    },
+    "n_songs": 138,
+    "reliable": true
+   }
+  },
+  "kca_kidz_bop": {
+   "full": {
+    "complete": true,
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 78,
+      "n": 690,
+      "share": 0.113,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 128,
+      "n": 690,
+      "share": 0.1855,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 36,
+      "n": 690,
+      "share": 0.0522,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 109,
+      "n": 690,
+      "share": 0.158,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 28,
+      "n": 690,
+      "share": 0.0406,
+      "unmeasured": 0
+     }
+    },
+    "n_songs": 690,
+    "reliable": true
+   },
+   "is_teen": false,
+   "shift_pp": {
+    "drugs_use_or_sale": -1.3,
+    "profanity_strong": -1.8,
+    "sex_graphic": -0.7,
+    "sex_graphic_or_explicit": -1.1,
+    "violence_beyond_mention": -0.2
+   },
+   "side": {
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 16,
+      "n": 198,
+      "share": 0.0808,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 28,
+      "n": 198,
+      "share": 0.1414,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 7,
+      "n": 198,
+      "share": 0.0354,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 26,
+      "n": 198,
+      "share": 0.1313,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 7,
+      "n": 198,
+      "share": 0.0354,
+      "unmeasured": 0
+     }
+    },
+    "n_planned": 198,
+    "n_songs": 198,
+    "n_unread": 0,
+    "reliable": true
+   },
+   "vs_chart": {
+    "basis": "yearend_only",
+    "chart": {
+     "measures": {
+      "drugs_use_or_sale": {
+       "hits": 388,
+       "n": 1405,
+       "share": 0.2762,
+       "unmeasured": 0
+      },
+      "profanity_strong": {
+       "hits": 479,
+       "n": 1405,
+       "share": 0.3409,
+       "unmeasured": 0
+      },
+      "sex_graphic": {
+       "hits": 255,
+       "n": 1405,
+       "share": 0.1815,
+       "unmeasured": 0
+      },
+      "sex_graphic_or_explicit": {
+       "hits": 447,
+       "n": 1405,
+       "share": 0.3181,
+       "unmeasured": 0
+      },
+      "violence_beyond_mention": {
+       "hits": 221,
+       "n": 1405,
+       "share": 0.1573,
+       "unmeasured": 0
+      }
+     },
+     "n_songs": 1405,
+     "reliable": true
+    },
+    "from_year": 2010,
+    "group": {
+     "measures": {
+      "drugs_use_or_sale": {
+       "hits": 62,
+       "n": 476,
+       "share": 0.1303,
+       "unmeasured": 0
+      },
+      "profanity_strong": {
+       "hits": 99,
+       "n": 476,
+       "share": 0.208,
+       "unmeasured": 0
+      },
+      "sex_graphic": {
+       "hits": 29,
+       "n": 476,
+       "share": 0.0609,
+       "unmeasured": 0
+      },
+      "sex_graphic_or_explicit": {
+       "hits": 83,
+       "n": 476,
+       "share": 0.1744,
+       "unmeasured": 0
+      },
+      "violence_beyond_mention": {
+       "hits": 21,
+       "n": 476,
+       "share": 0.0441,
+       "unmeasured": 0
+      }
+     },
+     "n_songs": 476,
+     "reliable": true
+    }
+   },
+   "yearend": {
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 62,
+      "n": 492,
+      "share": 0.126,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 100,
+      "n": 492,
+      "share": 0.2033,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 29,
+      "n": 492,
+      "share": 0.0589,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 83,
+      "n": 492,
+      "share": 0.1687,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 21,
+      "n": 492,
+      "share": 0.0427,
+      "unmeasured": 0
+     }
+    },
+    "n_songs": 492,
+    "reliable": true
+   }
+  },
+  "kids_union": {
+   "full": {
+    "complete": true,
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 86,
+      "n": 887,
+      "share": 0.097,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 134,
+      "n": 887,
+      "share": 0.1511,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 38,
+      "n": 887,
+      "share": 0.0428,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 121,
+      "n": 887,
+      "share": 0.1364,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 33,
+      "n": 887,
+      "share": 0.0372,
+      "unmeasured": 0
+     }
+    },
+    "n_songs": 887,
+    "reliable": true
+   },
+   "is_teen": false,
+   "shift_pp": {
+    "drugs_use_or_sale": -2.6,
+    "profanity_strong": -4.7,
+    "sex_graphic": -1.4,
+    "sex_graphic_or_explicit": -3.6,
+    "violence_beyond_mention": -0.4
+   },
+   "side": {
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 23,
+      "n": 377,
+      "share": 0.061,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 33,
+      "n": 377,
+      "share": 0.0875,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 9,
+      "n": 377,
+      "share": 0.0239,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 33,
+      "n": 377,
+      "share": 0.0875,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 12,
+      "n": 377,
+      "share": 0.0318,
+      "unmeasured": 0
+     }
+    },
+    "n_planned": 377,
+    "n_songs": 377,
+    "n_unread": 0,
+    "reliable": true
+   },
+   "vs_chart": {
+    "basis": "yearend_only",
+    "chart": {
+     "measures": {
+      "drugs_use_or_sale": {
+       "hits": 388,
+       "n": 1405,
+       "share": 0.2762,
+       "unmeasured": 0
+      },
+      "profanity_strong": {
+       "hits": 479,
+       "n": 1405,
+       "share": 0.3409,
+       "unmeasured": 0
+      },
+      "sex_graphic": {
+       "hits": 255,
+       "n": 1405,
+       "share": 0.1815,
+       "unmeasured": 0
+      },
+      "sex_graphic_or_explicit": {
+       "hits": 447,
+       "n": 1405,
+       "share": 0.3181,
+       "unmeasured": 0
+      },
+      "violence_beyond_mention": {
+       "hits": 221,
+       "n": 1405,
+       "share": 0.1573,
+       "unmeasured": 0
+      }
+     },
+     "n_songs": 1405,
+     "reliable": true
+    },
+    "from_year": 2010,
+    "group": {
+     "measures": {
+      "drugs_use_or_sale": {
+       "hits": 63,
+       "n": 494,
+       "share": 0.1275,
+       "unmeasured": 0
+      },
+      "profanity_strong": {
+       "hits": 100,
+       "n": 494,
+       "share": 0.2024,
+       "unmeasured": 0
+      },
+      "sex_graphic": {
+       "hits": 29,
+       "n": 494,
+       "share": 0.0587,
+       "unmeasured": 0
+      },
+      "sex_graphic_or_explicit": {
+       "hits": 88,
+       "n": 494,
+       "share": 0.1781,
+       "unmeasured": 0
+      },
+      "violence_beyond_mention": {
+       "hits": 21,
+       "n": 494,
+       "share": 0.0425,
+       "unmeasured": 0
+      }
+     },
+     "n_songs": 494,
+     "reliable": true
+    }
+   },
+   "yearend": {
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 63,
+      "n": 510,
+      "share": 0.1235,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 101,
+      "n": 510,
+      "share": 0.198,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 29,
+      "n": 510,
+      "share": 0.0569,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 88,
+      "n": 510,
+      "share": 0.1725,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 21,
+      "n": 510,
+      "share": 0.0412,
+      "unmeasured": 0
+     }
+    },
+    "n_songs": 510,
+    "reliable": true
+   }
+  },
+  "kidz-bop": {
+   "full": {
+    "complete": true,
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 64,
+      "n": 621,
+      "share": 0.1031,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 115,
+      "n": 621,
+      "share": 0.1852,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 22,
+      "n": 621,
+      "share": 0.0354,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 80,
+      "n": 621,
+      "share": 0.1288,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 17,
+      "n": 621,
+      "share": 0.0274,
+      "unmeasured": 0
+     }
+    },
+    "n_songs": 621,
+    "reliable": true
+   },
+   "is_teen": false,
+   "shift_pp": {
+    "drugs_use_or_sale": -1.1,
+    "profanity_strong": -1.1,
+    "sex_graphic": -0.7,
+    "sex_graphic_or_explicit": -1.2,
+    "violence_beyond_mention": -0.2
+   },
+   "side": {
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 13,
+      "n": 172,
+      "share": 0.0756,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 27,
+      "n": 172,
+      "share": 0.157,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 3,
+      "n": 172,
+      "share": 0.0174,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 17,
+      "n": 172,
+      "share": 0.0988,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 4,
+      "n": 172,
+      "share": 0.0233,
+      "unmeasured": 0
+     }
+    },
+    "n_planned": 172,
+    "n_songs": 172,
+    "n_unread": 0,
+    "reliable": true
+   },
+   "vs_chart": {
+    "basis": "yearend_only",
+    "chart": {
+     "measures": {
+      "drugs_use_or_sale": {
+       "hits": 388,
+       "n": 1405,
+       "share": 0.2762,
+       "unmeasured": 0
+      },
+      "profanity_strong": {
+       "hits": 479,
+       "n": 1405,
+       "share": 0.3409,
+       "unmeasured": 0
+      },
+      "sex_graphic": {
+       "hits": 255,
+       "n": 1405,
+       "share": 0.1815,
+       "unmeasured": 0
+      },
+      "sex_graphic_or_explicit": {
+       "hits": 447,
+       "n": 1405,
+       "share": 0.3181,
+       "unmeasured": 0
+      },
+      "violence_beyond_mention": {
+       "hits": 221,
+       "n": 1405,
+       "share": 0.1573,
+       "unmeasured": 0
+      }
+     },
+     "n_songs": 1405,
+     "reliable": true
+    },
+    "from_year": 2010,
+    "group": {
+     "measures": {
+      "drugs_use_or_sale": {
+       "hits": 51,
+       "n": 433,
+       "share": 0.1178,
+       "unmeasured": 0
+      },
+      "profanity_strong": {
+       "hits": 87,
+       "n": 433,
+       "share": 0.2009,
+       "unmeasured": 0
+      },
+      "sex_graphic": {
+       "hits": 19,
+       "n": 433,
+       "share": 0.0439,
+       "unmeasured": 0
+      },
+      "sex_graphic_or_explicit": {
+       "hits": 63,
+       "n": 433,
+       "share": 0.1455,
+       "unmeasured": 0
+      },
+      "violence_beyond_mention": {
+       "hits": 13,
+       "n": 433,
+       "share": 0.03,
+       "unmeasured": 0
+      }
+     },
+     "n_songs": 433,
+     "reliable": true
+    }
+   },
+   "yearend": {
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 51,
+      "n": 449,
+      "share": 0.1136,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 88,
+      "n": 449,
+      "share": 0.196,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 19,
+      "n": 449,
+      "share": 0.0423,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 63,
+      "n": 449,
+      "share": 0.1403,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 13,
+      "n": 449,
+      "share": 0.029,
+      "unmeasured": 0
+     }
+    },
+    "n_songs": 449,
+    "reliable": true
+   }
+  },
+  "radio-disney": {
+   "full": {
+    "complete": true,
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 12,
+      "n": 324,
+      "share": 0.037,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 16,
+      "n": 324,
+      "share": 0.0494,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 2,
+      "n": 324,
+      "share": 0.0062,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 22,
+      "n": 324,
+      "share": 0.0679,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 7,
+      "n": 324,
+      "share": 0.0216,
+      "unmeasured": 0
+     }
+    },
+    "n_songs": 324,
+    "reliable": true
+   },
+   "is_teen": false,
+   "shift_pp": {
+    "drugs_use_or_sale": -0.1,
+    "profanity_strong": -3.4,
+    "sex_graphic": 0.6,
+    "sex_graphic_or_explicit": -4.6,
+    "violence_beyond_mention": 0.6
+   },
+   "side": {
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 7,
+      "n": 192,
+      "share": 0.0365,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 5,
+      "n": 192,
+      "share": 0.026,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 2,
+      "n": 192,
+      "share": 0.0104,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 7,
+      "n": 192,
+      "share": 0.0365,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 5,
+      "n": 192,
+      "share": 0.026,
+      "unmeasured": 0
+     }
+    },
+    "n_planned": 192,
+    "n_songs": 192,
+    "n_unread": 0,
+    "reliable": true
+   },
+   "vs_chart": {
+    "basis": "yearend_only",
+    "chart": {
+     "measures": {
+      "drugs_use_or_sale": {
+       "hits": 388,
+       "n": 1405,
+       "share": 0.2762,
+       "unmeasured": 0
+      },
+      "profanity_strong": {
+       "hits": 479,
+       "n": 1405,
+       "share": 0.3409,
+       "unmeasured": 0
+      },
+      "sex_graphic": {
+       "hits": 255,
+       "n": 1405,
+       "share": 0.1815,
+       "unmeasured": 0
+      },
+      "sex_graphic_or_explicit": {
+       "hits": 447,
+       "n": 1405,
+       "share": 0.3181,
+       "unmeasured": 0
+      },
+      "violence_beyond_mention": {
+       "hits": 221,
+       "n": 1405,
+       "share": 0.1573,
+       "unmeasured": 0
+      }
+     },
+     "n_songs": 1405,
+     "reliable": true
+    },
+    "from_year": 2010,
+    "group": {
+     "measures": {
+      "drugs_use_or_sale": {
+       "hits": 5,
+       "n": 130,
+       "share": 0.0385,
+       "unmeasured": 0
+      },
+      "profanity_strong": {
+       "hits": 11,
+       "n": 130,
+       "share": 0.0846,
+       "unmeasured": 0
+      },
+      "sex_graphic": {
+       "hits": 0,
+       "n": 130,
+       "share": 0.0,
+       "unmeasured": 0
+      },
+      "sex_graphic_or_explicit": {
+       "hits": 15,
+       "n": 130,
+       "share": 0.1154,
+       "unmeasured": 0
+      },
+      "violence_beyond_mention": {
+       "hits": 2,
+       "n": 130,
+       "share": 0.0154,
+       "unmeasured": 0
+      }
+     },
+     "n_songs": 130,
+     "reliable": true
+    }
+   },
+   "yearend": {
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 5,
+      "n": 132,
+      "share": 0.0379,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 11,
+      "n": 132,
+      "share": 0.0833,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 0,
+      "n": 132,
+      "share": 0.0,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 15,
+      "n": 132,
+      "share": 0.1136,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 2,
+      "n": 132,
+      "share": 0.0152,
+      "unmeasured": 0
+     }
+    },
+    "n_songs": 132,
+    "reliable": true
+   }
+  },
+  "teen-choice": {
+   "full": {
+    "complete": true,
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 47,
+      "n": 466,
+      "share": 0.1009,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 60,
+      "n": 466,
+      "share": 0.1288,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 12,
+      "n": 466,
+      "share": 0.0258,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 68,
+      "n": 466,
+      "share": 0.1459,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 30,
+      "n": 466,
+      "share": 0.0644,
+      "unmeasured": 0
+     }
+    },
+    "n_songs": 466,
+    "reliable": true
+   },
+   "is_teen": true,
+   "shift_pp": {
+    "drugs_use_or_sale": -3.2,
+    "profanity_strong": -4.1,
+    "sex_graphic": -1.4,
+    "sex_graphic_or_explicit": -3.7,
+    "violence_beyond_mention": -0.2
+   },
+   "side": {
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 7,
+      "n": 166,
+      "share": 0.0422,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 9,
+      "n": 166,
+      "share": 0.0542,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 0,
+      "n": 166,
+      "share": 0.0,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 13,
+      "n": 166,
+      "share": 0.0783,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 10,
+      "n": 166,
+      "share": 0.0602,
+      "unmeasured": 0
+     }
+    },
+    "n_planned": 166,
+    "n_songs": 166,
+    "n_unread": 0,
+    "reliable": true
+   },
+   "vs_chart": {
+    "basis": "yearend_only",
+    "chart": {
+     "measures": {
+      "drugs_use_or_sale": {
+       "hits": 388,
+       "n": 1405,
+       "share": 0.2762,
+       "unmeasured": 0
+      },
+      "profanity_strong": {
+       "hits": 479,
+       "n": 1405,
+       "share": 0.3409,
+       "unmeasured": 0
+      },
+      "sex_graphic": {
+       "hits": 255,
+       "n": 1405,
+       "share": 0.1815,
+       "unmeasured": 0
+      },
+      "sex_graphic_or_explicit": {
+       "hits": 447,
+       "n": 1405,
+       "share": 0.3181,
+       "unmeasured": 0
+      },
+      "violence_beyond_mention": {
+       "hits": 221,
+       "n": 1405,
+       "share": 0.1573,
+       "unmeasured": 0
+      }
+     },
+     "n_songs": 1405,
+     "reliable": true
+    },
+    "from_year": 2010,
+    "group": {
+     "measures": {
+      "drugs_use_or_sale": {
+       "hits": 40,
+       "n": 300,
+       "share": 0.1333,
+       "unmeasured": 0
+      },
+      "profanity_strong": {
+       "hits": 51,
+       "n": 300,
+       "share": 0.17,
+       "unmeasured": 0
+      },
+      "sex_graphic": {
+       "hits": 12,
+       "n": 300,
+       "share": 0.04,
+       "unmeasured": 0
+      },
+      "sex_graphic_or_explicit": {
+       "hits": 55,
+       "n": 300,
+       "share": 0.1833,
+       "unmeasured": 0
+      },
+      "violence_beyond_mention": {
+       "hits": 20,
+       "n": 300,
+       "share": 0.0667,
+       "unmeasured": 0
+      }
+     },
+     "n_songs": 300,
+     "reliable": true
+    }
+   },
+   "yearend": {
+    "measures": {
+     "drugs_use_or_sale": {
+      "hits": 40,
+      "n": 300,
+      "share": 0.1333,
+      "unmeasured": 0
+     },
+     "profanity_strong": {
+      "hits": 51,
+      "n": 300,
+      "share": 0.17,
+      "unmeasured": 0
+     },
+     "sex_graphic": {
+      "hits": 12,
+      "n": 300,
+      "share": 0.04,
+      "unmeasured": 0
+     },
+     "sex_graphic_or_explicit": {
+      "hits": 55,
+      "n": 300,
+      "share": 0.1833,
+      "unmeasured": 0
+     },
+     "violence_beyond_mention": {
+      "hits": 20,
+      "n": 300,
+      "share": 0.0667,
+      "unmeasured": 0
+     }
+    },
+    "n_songs": 300,
+    "reliable": true
+   }
+  }
+ },
+ "measures": {
+  "drugs_use_or_sale": {
+   "label": "Drug use or sale described (not just mentioned)",
+   "source": "card_v3_read"
+  },
+  "profanity_strong": {
+   "label": "Strong profanity present (lex)",
+   "lexical_column": "profanity_strong_count",
+   "source": "lexical_scan"
+  },
+  "sex_graphic": {
+   "label": "Sex described graphically",
+   "source": "card_v3_read"
+  },
+  "sex_graphic_or_explicit": {
+   "label": "Sex described graphically or explicitly",
+   "source": "card_v3_read"
+  },
+  "violence_beyond_mention": {
+   "label": "Violence threatened or enacted (not just mentioned)",
+   "source": "card_v3_read"
+  }
+ },
+ "method_notes": [
+  "yearend reproduces the Year-End-only kids figures: same cards, same exclusions, same join tables, same measure predicates (imported from scripts/build_decade_genre_breakdown.py).",
+  "side counts only kids-side songs with a valid card in the exported cards.csv. Planned songs without one are `n_unread` and are in no denominator.",
+  "full is yearend plus side, songs counted once (a side song is by construction not a Year-End song). shift_pp = 100 x (full share - yearend share).",
+  "A side song with a blank lexical column is `unmeasured` on the profanity measure and left out of its denominator.",
+  "kids_union is kca, kidz-bop and radio-disney. kca_kidz_bop is kca and kidz-bop only. teen-choice is a teen award, reported alone and never inside either union.",
+  "vs_chart compares the group's Year-End hits from 2010 on against every Year-End song from 2010 on, on the same measures. Year-End only on both sides.",
+  "Cells below min_n carry reliable=false.",
+  "Side cards never enter live/decade-genre-breakdown.json."
+ ],
+ "min_n": 30,
+ "read_progress": {
+  "cards_csv_stale": false,
+  "complete": true,
+  "side_card_files_on_disk": 513,
+  "side_planned": 513,
+  "side_read": 513,
+  "side_unread": 0
+ },
+ "schema": "kids-full-catalogue/v1",
+ "side_songs_without_year": 2,
+ "sources": {
+  "out_of_scope": "side/kids-side-bodies-v1/manifest.csv status",
+  "side_cards": "live/reads/kids-side-v1/cards.csv",
+  "side_membership": "live/reads/kids-side-v1/manifest.csv kids_lists",
+  "yearend_cards": "live/reads/full-v3/cards.csv",
+  "yearend_exclusions": "live/read-exclusions.csv",
+  "yearend_membership": "notes/kids-charts-join-*-year-end.md (parsed by scripts/audit_kids_joins.py, via build_decade_genre_breakdown.load_kids_ids)"
+ },
+ "teen_list": "teen-choice",
+ "vs_chart_from_year": 2010,
+ "yearend_reproduces_breakdown": true
+}
